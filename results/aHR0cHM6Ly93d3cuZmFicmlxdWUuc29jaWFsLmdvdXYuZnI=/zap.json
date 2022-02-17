@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 13 Feb 2022 00:47:02",
+	"@generated": "Thu, 17 Feb 2022 13:35:45",
 	"site":[ 
 		{
 			"@name": "https://www.fabrique.social.gouv.fr",
@@ -32,7 +32,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "278"
+					"sourceid": "268"
 				},
 				{
 					"pluginid": "10055",
@@ -195,13 +195,6 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://www.fabrique.social.gouv.fr/startups/domifa/",
-							"method": "GET",
-							"param": "Cache-Control",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://www.fabrique.social.gouv.fr/startups/e-mjpm/",
 							"method": "GET",
 							"param": "Cache-Control",
@@ -217,6 +210,13 @@
 						},
 						{
 							"uri": "https://www.fabrique.social.gouv.fr/startups/mano/",
+							"method": "GET",
+							"param": "Cache-Control",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://www.fabrique.social.gouv.fr/startups/tremplin/",
 							"method": "GET",
 							"param": "Cache-Control",
 							"attack": "",
@@ -434,22 +434,15 @@
 							"param": "",
 							"attack": "",
 							"evidence": "308308616"
-						},
-						{
-							"uri": "https://www.fabrique.social.gouv.fr/startups/code-du-travail-numerique/release-v3.2.0",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "308308616"
 						}
 					],
-					"count": "14",
+					"count": "13",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
 					"otherinfo": "<p>1073741823, which evaluates to: 2004-01-10 13:37:03</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "277"
+					"sourceid": "267"
 				},
 				{
 					"pluginid": "10094",
