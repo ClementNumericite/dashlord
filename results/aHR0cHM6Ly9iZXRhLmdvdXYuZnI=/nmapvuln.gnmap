@@ -1,4 +1,4 @@
-# Nmap 7.91 scan initiated Thu Feb 17 13:49:19 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln beta.gouv.fr
+# Nmap 7.91 scan initiated Sun Feb 20 01:25:55 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln beta.gouv.fr
 Host: 75.2.60.5 (acd89244c803f7181.awsglobalaccelerator.com)	Status: Up
 Host: 75.2.60.5 (acd89244c803f7181.awsglobalaccelerator.com)	Ports: 80/open/tcp//http//Netlify/, 443/open/tcp//ssl|https///	Ignored State: filtered (998)
-# Nmap done at Thu Feb 17 13:49:38 2022 -- 1 IP address (1 host up) scanned in 19.49 seconds
+# Nmap done at Sun Feb 20 01:26:14 2022 -- 1 IP address (1 host up) scanned in 19.57 seconds
