@@ -4,21 +4,22 @@ entity: Ministères sociaux
 footer: Powered by SocialGouv
 marianne: false
 tools:
-  404: true
-  screenshot: true
-  nmap: true
-  zap: true
-  wappalyzer: true
-  http: true
-  testssl: true
-  lighthouse: true
-  thirdparties: true
-  nuclei: true
+  404: false
+  screenshot: false
+  nmap: false
+  zap: false
+  wappalyzer: false
+  http: false
+  testssl: false
+  lighthouse: false
+  thirdparties: false
+  nuclei: false
   updownio: false
-  dependabot: true
-  codescan: true
+  dependabot: false
+  codescan: false
   stats: false
   declaration-a11y: true
+  declaration-rgpd: true
 urls:
   - url: https://www.free.fr
     title: Homepage free.fr
