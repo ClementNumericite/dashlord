@@ -33,7 +33,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: init
-        uses: "SocialGouv/dashlord-actions/init@main"
+        uses: "ClementNumericite/dashlord-actions/init@main"
         with:
           url: ${{ github.event.inputs.url }}
 
@@ -60,7 +60,7 @@ jobs:
 
       - name: Déclaration a11y
         continue-on-error: true
-        uses: "socialgouv/dashlord-actions/declaration-a11y@v1"
+        uses: "ClementNumricite/dashlord-actions/declaration-a11y@v1"
         if: ${{ matrix.sites.tools['declaration-a11y'] }}
         with:
           url: ${{ matrix.sites.url }}
@@ -93,7 +93,7 @@ jobs:
       - name: Trivy
         continue-on-error: true
         if: ${{ matrix.sites.tools.trivy && matrix.sites.docker }}
-        uses: "socialgouv/dashlord-actions/trivy@v1"
+        uses: "ClementNumericite/dashlord-actions/trivy@v1"
         with:
           images: ${{ join(matrix.sites.docker) }}
           output: scans/trivy.json
