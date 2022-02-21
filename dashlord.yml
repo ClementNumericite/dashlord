@@ -20,9 +20,20 @@ tools:
   stats: false
   declaration-a11y: true
 urls:
-  - url: https://www.fabrique.social.gouv.fr
+  - url: https://www.free.fr
+    title: Homepage free.fr
+    tags:
+      - telecom
+      - provider
     repositories:
-      - socialgouv/www
+      - free/free-ui
+      - free/free-css
     docker:
       - ghcr.io/socialgouv/fabrique/frontend
-  - url: https://beta.gouv.fr
+      - ghcr.io/socialgouv/fabrique/backend
+    tools:
+      nmap: false
+  - url: https://www.lemonde.fr
+    title: Homepage lemonde.fr
+    tags:
+      - presse
