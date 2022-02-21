@@ -1,0 +1,520 @@
+{
+  "trackers": [
+    {
+      "type": "unknown",
+      "url": "https://cmp.lemonde.fr/js/lemonde.min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://img.lemde.fr/2022/02/08/0/0/3600/2400/664/0/75/0/9108f1d_187071109-macron-poutine-moscou-10.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://img.lemde.fr/2019/02/16/0/0/0/0/100/100/60/0/9b2c1b1_C-Y5wP8bfYSCiebC8DeK6JbV.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://img.lemde.fr/2016/10/05/0/0/0/0/100/100/60/0/88dc762_24316-ekupk6.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cmp.lemonde.fr/html/lemonde/standard-transparent-deny.html?css=/css/lemonde/standard.min.css"
+    },
+    {
+      "type": "unknown",
+      "url": "https://img.lemde.fr/2022/02/20/0/47/2773/1849/114/0/75/0/530baae_fw1-health-coronavirus-britain-0220-11.jpg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cmp.lemonde.fr/api/impression"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cmp.lemonde.fr/api/impression"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cmp.lemonde.fr/fonts/marr-sans/MarrSans-Medium-Web.woff2"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cmp.lemonde.fr/fonts/marr-sans-condensed/MarrSansCondensed-Medium-Web.woff2"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cmp.lemonde.fr/fonts/marr-sans/MarrSans-Semibold-Web.woff2"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cmp.lemonde.fr/fonts/marr-sans/MarrSans-Regular-Web.woff2"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cmp.lemonde.fr/fonts/the-antiqua-b/TheAntiquaB_LT_700.woff2"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cmp.lemonde.fr/fonts/the-antiqua-b/TheAntiquaB_LT_500.woff2"
+    },
+    {
+      "type": "amplitude.com",
+      "url": "https://cdn.amplitude.com/libs/amplitude-4.2.1-min.gz.js",
+      "details": {
+        "id": "amplitude.com",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://buf.lemonde.fr/lmd?s=489989&vc=false&vm=exempt&ts=1645464838296&vtag=5.28.1&ptag=js&r=800x600x24x24&re=800x600&p=Home::Beta::::Home&s2=5&stc=%7B%22Pagetype%22%3A%22Home%22%2C%22Population%22%3A%22Gratuit%22%2C%22Producteur%22%3A%22Edito%22%2C%22ir%22%3A%22false%22%2C%22consent%22%3A%22not%20found%22%2C%22consent%20AT%22%3A%22false%22%7D&ref="
+    },
+    {
+      "type": "unknown",
+      "url": "https://buf.lemonde.fr/lmd?s=489989&vc=false&vm=exempt&ts=1645464838296&vtag=5.28.1&ptag=js&r=800x600x24x24&re=800x600&p=Home::Beta::::Home&s2=5&stc=%7B%22Pagetype%22%3A%22Home%22%2C%22Population%22%3A%22Gratuit%22%2C%22Producteur%22%3A%22Edito%22%2C%22ir%22%3A%22false%22%2C%22consent%22%3A%22not%20found%22%2C%22consent%20AT%22%3A%22false%22%7D&ref=&Rdt=On"
+    },
+    {
+      "type": "unknown",
+      "url": "https://buf.lemonde.fr/lmd?s=489989&vc=false&vm=exempt&ts=1645464838623&vtag=5.28.1&ptag=js&r=800x600x24x24&re=800x600&ati=PUB-[cmp%20standard]-------&type=AT"
+    }
+  ],
+  "cookies": [
+    {
+      "name": "lmd_consent_tmp",
+      "value": "2691388d-0a9c-4e17-b18a-677a38f7d326",
+      "domain": ".lemonde.fr",
+      "path": "/",
+      "expires": 1677000838.303522,
+      "size": 51,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "atauthority",
+      "value": "%7B%22name%22%3A%22atauthority%22%2C%22val%22%3A%7B%22authority_name%22%3A%22cnil%22%2C%22visitor_mode%22%3A%22exempt%22%7D%2C%22options%22%3A%7B%22end%22%3A%222023-03-25T17%3A33%3A58.291Z%22%2C%22path%22%3A%22%2F%22%7D%7D",
+      "domain": "www.lemonde.fr",
+      "path": "/",
+      "expires": 1679765638,
+      "size": 233,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "lmd_gdpr_token",
+      "value": "85",
+      "domain": ".lemonde.fr",
+      "path": "/",
+      "expires": 1677000837,
+      "size": 16,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "critical-home-free-desktop",
+      "value": "d6cb3fbcd948d8173feccc785b61bec4",
+      "domain": "www.lemonde.fr",
+      "path": "/",
+      "expires": 1648056837.276465,
+      "size": 58,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    }
+  ],
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "x-protected-by": "Sqreen",
+    "set-cookie": "critical-home-free-desktop=d6cb3fbcd948d8173feccc785b61bec4; expires=Wed, 23-Mar-2022 17:33:57 GMT; Max-Age=2592000; path=/; secure",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "content-encoding": "gzip",
+    "via": "1.1 google, 1.1 varnish, 1.1 varnish",
+    "cache-control": "private, max-age=0",
+    "accept-ranges": "bytes",
+    "date": "Mon, 21 Feb 2022 17:33:57 GMT",
+    "x-served-by": "cache-cdg6224-CDG, cache-sea4435-SEA",
+    "x-cache": "MISS, MISS",
+    "x-cache-hits": "0, 0",
+    "x-timer": "S1645464837.955020,VS0,VE319",
+    "vary": "Accept-Encoding",
+    "strict-transport-security": "max-age=31557600"
+  },
+  "endpoints": [
+    {
+      "hostname": "www.lemonde.fr",
+      "ip": "151.101.54.217",
+      "geoip": {
+        "city": {
+          "geoname_id": 5809844,
+          "names": {
+            "de": "Seattle",
+            "en": "Seattle",
+            "es": "Seattle",
+            "fr": "Seattle",
+            "ja": "シアトル",
+            "pt-BR": "Seattle",
+            "ru": "Сиэтл"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 47.6034,
+          "longitude": -122.3414,
+          "metro_code": 819,
+          "time_zone": "America/Los_Angeles"
+        },
+        "postal": {
+          "code": "98160"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5815135,
+            "iso_code": "WA",
+            "names": {
+              "en": "Washington",
+              "es": "Washington",
+              "fr": "Washington",
+              "ja": "ワシントン州",
+              "ru": "Вашингтон",
+              "zh-CN": "华盛顿州"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "cmp.lemonde.fr",
+      "ip": "151.101.54.217",
+      "geoip": {
+        "city": {
+          "geoname_id": 5809844,
+          "names": {
+            "de": "Seattle",
+            "en": "Seattle",
+            "es": "Seattle",
+            "fr": "Seattle",
+            "ja": "シアトル",
+            "pt-BR": "Seattle",
+            "ru": "Сиэтл"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 47.6034,
+          "longitude": -122.3414,
+          "metro_code": 819,
+          "time_zone": "America/Los_Angeles"
+        },
+        "postal": {
+          "code": "98160"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5815135,
+            "iso_code": "WA",
+            "names": {
+              "en": "Washington",
+              "es": "Washington",
+              "fr": "Washington",
+              "ja": "ワシントン州",
+              "ru": "Вашингтон",
+              "zh-CN": "华盛顿州"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "img.lemde.fr",
+      "ip": "151.101.54.217",
+      "geoip": {
+        "city": {
+          "geoname_id": 5809844,
+          "names": {
+            "de": "Seattle",
+            "en": "Seattle",
+            "es": "Seattle",
+            "fr": "Seattle",
+            "ja": "シアトル",
+            "pt-BR": "Seattle",
+            "ru": "Сиэтл"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 47.6034,
+          "longitude": -122.3414,
+          "metro_code": 819,
+          "time_zone": "America/Los_Angeles"
+        },
+        "postal": {
+          "code": "98160"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5815135,
+            "iso_code": "WA",
+            "names": {
+              "en": "Washington",
+              "es": "Washington",
+              "fr": "Washington",
+              "ja": "ワシントン州",
+              "ru": "Вашингтон",
+              "zh-CN": "华盛顿州"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "cdn.amplitude.com",
+      "ip": "13.224.7.143",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "buf.lemonde.fr",
+      "ip": "18.65.229.36",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    }
+  ]
+}
