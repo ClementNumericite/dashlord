@@ -4,37 +4,26 @@ entity: Ministères sociaux
 footer: Powered by SocialGouv
 marianne: false
 tools:
-  404: false
-  screenshot: false
-  nmap: false
-  zap: false
-  wappalyzer: false
-  http: false
-  testssl: false
-  lighthouse: false
-  thirdparties: false
-  nuclei: false
+  404: true
+  screenshot: true
+  nmap: true
+  zap: true
+  wappalyzer: true
+  http: true
+  testssl: true
+  lighthouse: true
+  thirdparties: true
+  nuclei: true
   updownio: false
-  dependabot: false
-  codescan: false
+  dependabot: true
+  codescan: true
   stats: false
   declaration-a11y: true
   declaration-rgpd: true
 urls:
-  - url: https://www.free.fr
-    title: Homepage free.fr
-    tags:
-      - telecom
-      - provider
+  - url: https://www.fabrique.social.gouv.fr
     repositories:
-      - free/free-ui
-      - free/free-css
+      - socialgouv/www
     docker:
       - ghcr.io/socialgouv/fabrique/frontend
-      - ghcr.io/socialgouv/fabrique/backend
-    tools:
-      nmap: false
-  - url: https://www.lemonde.fr
-    title: Homepage lemonde.fr
-    tags:
-      - presse
+  - url: https://beta.gouv.fr
