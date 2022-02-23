@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.91</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln beta.gouv.fr</pre>
-<p class="lead">Wed Feb 23 18:03:31 2022 – Wed Feb 23 18:03:47 2022<br>1 hosts scanned.
+<p class="lead">Wed Feb 23 18:24:27 2022 – Wed Feb 23 18:26:11 2022<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -122,28 +122,32 @@
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, SSLSessionReq: 
-    HTTP/1.1 400 Bad Request
-    content-length: 0
-    date: Wed, 23 Feb 2022 18:03:47 GMT
   FourOhFourRequest: 
-    HTTP/1.0 400 Bad Request
-    content-length: 19
-    date: Wed, 23 Feb 2022 18:03:42 GMT
-    Missing host header
-  GetRequest, HTTPOptions: 
-    HTTP/1.0 400 Bad Request
-    content-length: 19
-    date: Wed, 23 Feb 2022 18:03:41 GMT
-    Missing host header
-  Kerberos, RPCCheck, SMBProgNeg, TLSSessionReq, TerminalServerCookie: 
+    HTTP/1.0 404 Not Found
+    Age: 0
+    Content-Length: 0
+    Date: Wed, 23 Feb 2022 18:24:42 GMT
+    Server: Netlify
+    X-Nf-Request-Id: 01FWKX82SRETKZTFDC679R3P2D
+  GenericLines, Help, Kerberos, LDAPSearchReq, LPDString, RTSPRequest, SSLSessionReq, TLSSessionReq, TerminalServerCookie: 
     HTTP/1.1 400 Bad Request
-    content-length: 0
-    date: Wed, 23 Feb 2022 18:03:46 GMT
-  RTSPRequest, X11Probe: 
-    HTTP/1.1 400 Bad Request
-    content-length: 0
-    date: Wed, 23 Feb 2022 18:03:41 GMT</pre>
+    Content-Type: text/plain; charset=utf-8
+    Connection: close
+    Request
+  GetRequest: 
+    HTTP/1.0 404 Not Found
+    Age: 0
+    Content-Length: 0
+    Date: Wed, 23 Feb 2022 18:24:37 GMT
+    Server: Netlify
+    X-Nf-Request-Id: 01FWKX7XRV5SEQRXGM771VTQRC
+  HTTPOptions: 
+    HTTP/1.0 404 Not Found
+    Age: 0
+    Content-Length: 0
+    Date: Wed, 23 Feb 2022 18:24:37 GMT
+    Server: Netlify
+    X-Nf-Request-Id: 01FWKX7XTAD0SGZZK8BFRC43NH</pre>
 <h5>http-server-header</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">Netlify</pre>
 </td></tr>
@@ -152,12 +156,40 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">https</td>
-<td title="Product"></td>
+<td title="Product">Netlify</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  FourOhFourRequest: 
+    HTTP/1.0 404 Not Found
+    Age: 0
+    Content-Length: 0
+    Date: Wed, 23 Feb 2022 18:24:43 GMT
+    Server: Netlify
+    X-Nf-Request-Id: 01FWKX83XMHGTCZE40F48QCETN
+  GenericLines, Help, Kerberos, LDAPSearchReq, LPDString, RTSPRequest, SSLSessionReq, TLSSessionReq, TerminalServerCookie: 
+    HTTP/1.1 400 Bad Request
+    Content-Type: text/plain; charset=utf-8
+    Connection: close
+    Request
+  GetRequest: 
+    HTTP/1.0 404 Not Found
+    Age: 0
+    Content-Length: 0
+    Date: Wed, 23 Feb 2022 18:24:43 GMT
+    Server: Netlify
+    X-Nf-Request-Id: 01FWKX83QAPZWTC1FDGKE9HP53
+  HTTPOptions: 
+    HTTP/1.0 404 Not Found
+    Age: 0
+    Content-Length: 0
+    Date: Wed, 23 Feb 2022 18:24:43 GMT
+    Server: Netlify
+    X-Nf-Request-Id: 01FWKX83STZXKA9ZGJ13E8V38W</pre>
+<h5>http-server-header</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">Netlify</pre>
 </td></tr>
 </tbody>
@@ -192,7 +224,7 @@
 <td>443</td>
 <td>tcp</td>
 <td>https</td>
-<td></td>
+<td>Netlify</td>
 <td></td>
 <td></td>
 <td></td>
