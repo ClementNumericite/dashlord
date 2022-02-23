@@ -1,1 +1,1 @@
-[{"slug":"ml","mention":null,"maxScore":0,"score":0},{"slug":"pc","mention":"Politique de confidentialité","maxScore":4,"score":2,"declarationUrl":"https://www.free.fr/freebox/informations/politique-de-confidentialite/"}]
+[{"slug":"ml","mention":null,"maxScore":0,"score":0,"missing":[]},{"slug":"pc","mention":"Politique de confidentialité","maxScore":4,"score":2,"missing":["modèle","durée de conservation"],"declarationUrl":"https://www.free.fr/freebox/informations/politique-de-confidentialite/"}]
