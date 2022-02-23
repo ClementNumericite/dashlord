@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 23 Feb 2022 15:28:50",
+	"@generated": "Wed, 23 Feb 2022 18:01:51",
 	"site":[ 
 		{
 			"@name": "https://beta.gouv.fr",
@@ -276,7 +276,7 @@
 					"reference": "<p>http://blogs.wsj.com/cio/2013/10/08/adobe-source-code-leak-is-bad-news-for-u-s-government/</p>",
 					"cweid": "540",
 					"wascid": "13",
-					"sourceid": "2241"
+					"sourceid": "2249"
 				},
 				{
 					"pluginid": "90003",
@@ -985,7 +985,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "57"
+					"sourceid": "84"
 				},
 				{
 					"pluginid": "10021",
@@ -1287,7 +1287,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "952"
+					"sourceid": "989"
 				},
 				{
 					"pluginid": "10109",
@@ -1400,70 +1400,70 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 348"
+							"evidence": "Age: 350"
 						},
 						{
 							"uri": "https://beta.gouv.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 349"
+							"evidence": "Age: 351"
 						},
 						{
 							"uri": "https://beta.gouv.fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 349"
+							"evidence": "Age: 351"
 						},
 						{
 							"uri": "https://beta.gouv.fr/approche",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 343"
+							"evidence": "Age: 345"
 						},
 						{
 							"uri": "https://beta.gouv.fr/approche/construction",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 343"
+							"evidence": "Age: 345"
 						},
 						{
 							"uri": "https://beta.gouv.fr/approche/investigation",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 343"
+							"evidence": "Age: 345"
 						},
 						{
 							"uri": "https://beta.gouv.fr/communaute/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 341"
+							"evidence": "Age: 343"
 						},
 						{
 							"uri": "https://beta.gouv.fr/communaute/annuaire",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 347"
+							"evidence": "Age: 349"
 						},
 						{
 							"uri": "https://beta.gouv.fr/devenir-intrapreneur",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 343"
+							"evidence": "Age: 345"
 						},
 						{
 							"uri": "https://beta.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 349"
+							"evidence": "Age: 8792"
 						},
 						{
 							"uri": "https://beta.gouv.fr/sitemap.xml",
@@ -1477,7 +1477,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 343"
+							"evidence": "Age: 344"
 						}
 					],
 					"count": "12",
