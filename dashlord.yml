@@ -27,4 +27,4 @@ urls:
     docker:
       - ghcr.io/socialgouv/fabrique/frontend
   - url: https://beta.gouv.fr
-  - url: https://emjpm.fabrique.social.gouv.fr/
+  - url: https://emjpm.fabrique.social.gouv.fr
