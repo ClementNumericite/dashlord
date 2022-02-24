@@ -7,7 +7,7 @@
   ],
   "cookies": [],
   "headers": {
-    "date": "Wed, 23 Feb 2022 18:14:34 GMT",
+    "date": "Thu, 24 Feb 2022 09:11:20 GMT",
     "content-type": "text/html; charset=utf-8",
     "content-disposition": "inline; filename=\"index.html\"",
     "accept-ranges": "bytes",
@@ -117,7 +117,7 @@
     },
     {
       "hostname": "api.tiles.mapbox.com",
-      "ip": "108.156.225.185",
+      "ip": "65.8.57.179",
       "geoip": {
         "continent": {
           "code": "NA",
