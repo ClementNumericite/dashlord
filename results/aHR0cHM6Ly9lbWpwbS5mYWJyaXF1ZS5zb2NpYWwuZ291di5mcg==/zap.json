@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Wed, 2 Mar 2022 13:14:17",
+	"@generated": "Wed, 2 Mar 2022 14:23:24",
 	"site":[ 
 		{
 			"@name": "https://emjpm.fabrique.social.gouv.fr",
@@ -1035,16 +1035,9 @@
 							"param": "",
 							"attack": "",
 							"evidence": "bug"
-						},
-						{
-							"uri": "https://emjpm.fabrique.social.gouv.fr/static/js/main.d8241554.chunk.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "query"
 						}
 					],
-					"count": "2",
+					"count": "1",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
 					"otherinfo": "<p>The following pattern was used: \\bBUG\\b and was detected in the element starting with: \"(this[\"webpackJsonp@emjpm/app\"]=this[\"webpackJsonp@emjpm/app\"]||[]).push([[3],[function(e,t,n){\"use strict\";e.exports=n(697)},fu\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
