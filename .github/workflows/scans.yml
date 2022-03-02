@@ -145,7 +145,7 @@ jobs:
         if: ${{ matrix.sites.tools.thirdparties }}
         continue-on-error: true
         uses: SocialGouv/thirdparties-action@feat/usable-output
-        id: thirdparties_action
+        id: thirdparties
         with:
           url: "${{ matrix.sites.url }}"
           output: "scans/thirdparties.json"
@@ -155,7 +155,7 @@ jobs:
         uses: "ClementNumericite/dashlord-actions/declaration-rgpd@feat/rgpd-checker"
         if: ${{ matrix.sites.tools['declaration-rgpd'] }}
         with:
-          thirdparties: "{'toto': test}"
+          thirdparties: "'"${{ steps.thirdparties.outputs['third-parties-output'] }}"'"
           url: ${{ matrix.sites.url }}
           output: scans/declaration-rgpd.json
 
