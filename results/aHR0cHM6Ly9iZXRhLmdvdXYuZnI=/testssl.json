@@ -136,7 +136,7 @@
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "server"
+              "finding"      : "server -- TLS 1.3 client determined"
           }
 ,         {
               "id"           : "protocol_negotiated",
@@ -150,14 +150,14 @@
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "TLS_AES_256_GCM_SHA384, 253 bit ECDH (X25519)"
+              "finding"      : "TLS_AES_128_GCM_SHA256, 256 bit ECDH (P-256)"
           }
 ,         {
               "id"           : "cipherorder_TLSv1_2",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "FS",
@@ -185,7 +185,7 @@
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'key share/#51' 'supported versions/#43' 'application layer protocol negotiation/#16' 'extended master secret/#23'"
+              "finding"      : "'session ticket/#35' 'renegotiation info/#65281' 'EC point formats/#11' 'supported versions/#43' 'key share/#51' 'application layer protocol negotiation/#16'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
@@ -213,7 +213,7 @@
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -353,7 +353,7 @@
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "88 >= 30 days"
+              "finding"      : "85 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,21 +549,21 @@
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "+1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1645638629"
+              "finding"      : "1645897720"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "747 seconds"
+              "finding"      : "27294 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -654,7 +654,7 @@
               "severity"     : "OK",
               "cve"          : "CVE-2016-9244",
               "cwe"          : "CWE-200",
-              "finding"      : "no session ticket extension"
+              "finding"      : "not vulnerable"
           }
 ,         {
               "id"           : "ROBOT",
@@ -698,7 +698,7 @@
               "severity"     : "MEDIUM",
               "cve"          : "CVE-2013-3587",
               "cwe"          : "CWE-310",
-              "finding"      : "potentially VULNERABLE, br gzip HTTP compression detected  - only supplied '/' tested"
+              "finding"      : "potentially VULNERABLE, gzip br HTTP compression detected  - only supplied '/' tested"
           }
 ,         {
               "id"           : "POODLE_SSL",
@@ -811,7 +811,7 @@
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_500",
@@ -832,56 +832,56 @@
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_81",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_90",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_X",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-chrome_74_win10",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-chrome_79_win10",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-firefox_66_win81",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-firefox_71_win10",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-ie_6_xp",
@@ -909,91 +909,91 @@
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win81",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_winphone81",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win10",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-edge_15_win10",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-edge_17_win10",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-opera_66_win10",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-safari_9_ios9",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-safari_9_osx1011",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-safari_10_osx1012",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-safari_121_ios_122",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-safari_130_osx_10146",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-apple_ats_9_ios9",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-java_6u45",
@@ -1014,49 +1014,49 @@
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-java1102",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-java1201",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-openssl_102e",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-openssl_110l",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-openssl_111d",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-thunderbird_68_3_1",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "rating_spec",
@@ -1133,6 +1133,6 @@
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "53"
+              "finding"      : "56"
           }
 ]
