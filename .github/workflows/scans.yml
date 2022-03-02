@@ -144,7 +144,7 @@ jobs:
         timeout-minutes: 10
         if: ${{ matrix.sites.tools.thirdparties }}
         continue-on-error: true
-        uses: SocialGouv/thirdparties-action@usable-output
+        uses: SocialGouv/thirdparties-action@feat/usable-output
         id: thirdparties_action
         with:
           url: "${{ matrix.sites.url }}"
