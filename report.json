@@ -934,7 +934,7 @@
         "ip": "www.fabrique.social.gouv.fr/20.74.14.77",
         "port": "443",
         "severity": "INFO",
-        "finding": "1646238185"
+        "finding": "1646238847"
       },
       {
         "id": "HSTS_time",
@@ -1518,7 +1518,7 @@
         "ip": "www.fabrique.social.gouv.fr/20.74.14.77",
         "port": "443",
         "severity": "INFO",
-        "finding": "144"
+        "finding": "87"
       }
     ],
     "thirdparties": {
@@ -1529,7 +1529,7 @@
           "value": "1",
           "domain": "www.fabrique.social.gouv.fr",
           "path": "/",
-          "expires": 1646239914,
+          "expires": 1646240590,
           "size": 15,
           "httpOnly": false,
           "secure": false,
@@ -1541,10 +1541,10 @@
         },
         {
           "name": "_pk_id.2.6321",
-          "value": "04b9af76fc7d4910.1646238114.",
+          "value": "e279de362dc702bc.1646238791.",
           "domain": "www.fabrique.social.gouv.fr",
           "path": "/",
-          "expires": 1680193314,
+          "expires": 1680193991,
           "size": 41,
           "httpOnly": false,
           "secure": false,
@@ -1556,7 +1556,7 @@
         }
       ],
       "headers": {
-        "date": "Wed, 02 Mar 2022 16:21:51 GMT",
+        "date": "Wed, 02 Mar 2022 16:33:09 GMT",
         "content-type": "text/html",
         "last-modified": "Thu, 24 Feb 2022 18:39:45 GMT",
         "vary": "Accept-Encoding",
@@ -1684,19 +1684,25 @@
         "https://www.fabrique.social.gouv.fr/startups/work-in-france/": {
           "status": 200
         },
-        "https://www.fabrique.social.gouv.fr/startups/work-in-france": {
-          "status": 200
-        },
         "https://www.fabrique.social.gouv.fr/startups/tumeplay/": {
           "status": 200
         },
-        "https://www.fabrique.social.gouv.fr/actus/board-janvier-2019": {
+        "https://www.fabrique.social.gouv.fr/startups/work-in-france": {
           "status": 200
         },
         "https://www.fabrique.social.gouv.fr/startups/1000jours/": {
           "status": 200
         },
+        "https://www.fabrique.social.gouv.fr/faq/": {
+          "status": 200
+        },
+        "https://www.fabrique.social.gouv.fr/actus/board-janvier-2019": {
+          "status": 200
+        },
         "https://www.fabrique.social.gouv.fr/startups/code-du-travail-numerique/": {
+          "status": 200
+        },
+        "https://www.fabrique.social.gouv.fr/startups/domifa/": {
           "status": 200
         },
         "https://www.fabrique.social.gouv.fr/actus/saison2": {
@@ -1852,7 +1858,7 @@
     },
     "zap": {
       "@version": "2.11.1",
-      "@generated": "Wed, 2 Mar 2022 16:21:02",
+      "@generated": "Wed, 2 Mar 2022 16:32:28",
       "site": [
         {
           "@name": "https://www.fabrique.social.gouv.fr",
@@ -1931,7 +1937,7 @@
     "lhr": {
       "requestedUrl": "https://www.fabrique.social.gouv.fr/",
       "finalUrl": "https://www.fabrique.social.gouv.fr/",
-      "fetchTime": "2022-03-02T16:21:12.730Z",
+      "fetchTime": "2022-03-02T16:32:36.776Z",
       "runWarnings": [],
       "categories": {
         "performance": {
@@ -1973,49 +1979,49 @@
           "description": "Collects all available metrics.",
           "score": null,
           "scoreDisplayMode": "informative",
-          "numericValue": 4643,
+          "numericValue": 4522,
           "numericUnit": "millisecond",
           "details": {
             "type": "debugdata",
             "items": [
               {
-                "firstContentfulPaint": 1284,
-                "firstMeaningfulPaint": 1284,
-                "largestContentfulPaint": 2903,
-                "firstCPUIdle": 4065,
-                "interactive": 4643,
-                "speedIndex": 2547,
-                "estimatedInputLatency": 49,
-                "totalBlockingTime": 438,
-                "maxPotentialFID": 322,
+                "firstContentfulPaint": 1300,
+                "firstMeaningfulPaint": 1300,
+                "largestContentfulPaint": 2806,
+                "firstCPUIdle": 3875,
+                "interactive": 4522,
+                "speedIndex": 1893,
+                "estimatedInputLatency": 13,
+                "totalBlockingTime": 219,
+                "maxPotentialFID": 231,
                 "cumulativeLayoutShift": 0.000828776741532922,
                 "cumulativeLayoutShiftAllFrames": 0,
                 "observedTimeOrigin": 0,
-                "observedTimeOriginTs": 327873423,
+                "observedTimeOriginTs": 362377777,
                 "observedNavigationStart": 0,
-                "observedNavigationStartTs": 327873423,
-                "observedFirstPaint": 725,
-                "observedFirstPaintTs": 328598056,
-                "observedFirstContentfulPaint": 725,
-                "observedFirstContentfulPaintTs": 328598056,
-                "observedFirstMeaningfulPaint": 1436,
-                "observedFirstMeaningfulPaintTs": 329309375,
-                "observedLargestContentfulPaint": 1470,
-                "observedLargestContentfulPaintTs": 329343146,
-                "observedTraceEnd": 3730,
-                "observedTraceEndTs": 331603309,
-                "observedLoad": 2670,
-                "observedLoadTs": 330542959,
-                "observedDomContentLoaded": 1170,
-                "observedDomContentLoadedTs": 329043514,
+                "observedNavigationStartTs": 362377777,
+                "observedFirstPaint": 460,
+                "observedFirstPaintTs": 362838201,
+                "observedFirstContentfulPaint": 460,
+                "observedFirstContentfulPaintTs": 362838201,
+                "observedFirstMeaningfulPaint": 881,
+                "observedFirstMeaningfulPaintTs": 363259038,
+                "observedLargestContentfulPaint": 1005,
+                "observedLargestContentfulPaintTs": 363382828,
+                "observedTraceEnd": 2724,
+                "observedTraceEndTs": 365102062,
+                "observedLoad": 1662,
+                "observedLoadTs": 364039644,
+                "observedDomContentLoaded": 928,
+                "observedDomContentLoadedTs": 363306230,
                 "observedCumulativeLayoutShift": 0.000828776741532922,
                 "observedCumulativeLayoutShiftAllFrames": 0,
-                "observedFirstVisualChange": 730,
-                "observedFirstVisualChangeTs": 328603423,
-                "observedLastVisualChange": 3146,
-                "observedLastVisualChangeTs": 331019423,
-                "observedSpeedIndex": 1402,
-                "observedSpeedIndexTs": 329274995
+                "observedFirstVisualChange": 457,
+                "observedFirstVisualChangeTs": 362834777,
+                "observedLastVisualChange": 2724,
+                "observedLastVisualChangeTs": 365101777,
+                "observedSpeedIndex": 927,
+                "observedSpeedIndexTs": 363304967
               },
               {
                 "lcpInvalidated": false
@@ -2037,18 +2043,18 @@
                 "numScripts": 15,
                 "numStylesheets": 1,
                 "numFonts": 3,
-                "numTasks": 1291,
-                "numTasksOver10ms": 9,
-                "numTasksOver25ms": 4,
-                "numTasksOver50ms": 3,
+                "numTasks": 1294,
+                "numTasksOver10ms": 8,
+                "numTasksOver25ms": 2,
+                "numTasksOver50ms": 1,
                 "numTasksOver100ms": 0,
                 "numTasksOver500ms": 0,
-                "rtt": 146.527,
-                "throughput": 41709856.99429615,
-                "maxRtt": 149.14100000000002,
-                "maxServerLatency": 181.08000000000004,
-                "totalByteWeight": 7755755,
-                "totalTaskTime": 855.2119999999985,
+                "rtt": 85.383,
+                "throughput": 70281322.5301129,
+                "maxRtt": 87.64500000000001,
+                "maxServerLatency": 250.30700000000002,
+                "totalByteWeight": 7755746,
+                "totalTaskTime": 619.9599999999973,
                 "mainDocumentTransferSize": 7936
               }
             ]
@@ -5274,7 +5280,7 @@
         "ip": "emjpm.fabrique.social.gouv.fr/20.74.14.77",
         "port": "443",
         "severity": "INFO",
-        "finding": "supported"
+        "finding": "not supported"
       },
       {
         "id": "TLS_timestamp",
@@ -5575,7 +5581,7 @@
         "ip": "emjpm.fabrique.social.gouv.fr/20.74.14.77",
         "port": "443",
         "severity": "INFO",
-        "finding": "1646238037"
+        "finding": "1646238781"
       },
       {
         "id": "HSTS_time",
@@ -6166,7 +6172,7 @@
         "ip": "emjpm.fabrique.social.gouv.fr/20.74.14.77",
         "port": "443",
         "severity": "INFO",
-        "finding": "92"
+        "finding": "133"
       }
     ],
     "thirdparties": {
@@ -6178,7 +6184,7 @@
       ],
       "cookies": [],
       "headers": {
-        "date": "Wed, 02 Mar 2022 16:19:36 GMT",
+        "date": "Wed, 02 Mar 2022 16:31:53 GMT",
         "content-type": "text/html; charset=utf-8",
         "content-disposition": "inline; filename=\"index.html\"",
         "accept-ranges": "bytes",
@@ -6288,7 +6294,7 @@
         },
         {
           "hostname": "api.tiles.mapbox.com",
-          "ip": "18.67.81.185",
+          "ip": "108.156.225.185",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -6539,7 +6545,7 @@
     },
     "zap": {
       "@version": "2.11.1",
-      "@generated": "Wed, 2 Mar 2022 16:18:59",
+      "@generated": "Wed, 2 Mar 2022 16:31:20",
       "site": [
         {
           "@name": "https://emjpm.fabrique.social.gouv.fr",
@@ -6632,13 +6638,13 @@
     "lhr": {
       "requestedUrl": "https://emjpm.fabrique.social.gouv.fr/",
       "finalUrl": "https://emjpm.fabrique.social.gouv.fr/",
-      "fetchTime": "2022-03-02T16:19:08.191Z",
+      "fetchTime": "2022-03-02T16:31:29.525Z",
       "runWarnings": [],
       "categories": {
         "performance": {
           "title": "Performance",
           "id": "performance",
-          "score": 0.9927947998046875
+          "score": 0.9927982330322266
         },
         "accessibility": {
           "title": "Accessibility",
@@ -6674,49 +6680,49 @@
           "description": "Collects all available metrics.",
           "score": null,
           "scoreDisplayMode": "informative",
-          "numericValue": 7260,
+          "numericValue": 7264,
           "numericUnit": "millisecond",
           "details": {
             "type": "debugdata",
             "items": [
               {
-                "firstContentfulPaint": 6575,
-                "firstMeaningfulPaint": 6802,
-                "largestContentfulPaint": 7802,
-                "firstCPUIdle": 7260,
-                "interactive": 7260,
-                "speedIndex": 6575,
-                "estimatedInputLatency": 627,
-                "totalBlockingTime": 585,
-                "maxPotentialFID": 1268,
+                "firstContentfulPaint": 6962,
+                "firstMeaningfulPaint": 7119,
+                "largestContentfulPaint": 8017,
+                "firstCPUIdle": 7252,
+                "interactive": 7264,
+                "speedIndex": 6962,
+                "estimatedInputLatency": 13,
+                "totalBlockingTime": 240,
+                "maxPotentialFID": 290,
                 "cumulativeLayoutShift": 0.025,
                 "cumulativeLayoutShiftAllFrames": 0.025,
                 "observedTimeOrigin": 0,
-                "observedTimeOriginTs": 209769539,
+                "observedTimeOriginTs": 188552293,
                 "observedNavigationStart": 0,
-                "observedNavigationStartTs": 209769539,
-                "observedFirstPaint": 1178,
-                "observedFirstPaintTs": 210947478,
-                "observedFirstContentfulPaint": 1271,
-                "observedFirstContentfulPaintTs": 211040349,
-                "observedFirstMeaningfulPaint": 1407,
-                "observedFirstMeaningfulPaintTs": 211176991,
-                "observedLargestContentfulPaint": 1407,
-                "observedLargestContentfulPaintTs": 211176991,
-                "observedTraceEnd": 2546,
-                "observedTraceEndTs": 212315198,
-                "observedLoad": 1389,
-                "observedLoadTs": 211158875,
-                "observedDomContentLoaded": 1171,
-                "observedDomContentLoadedTs": 210940155,
+                "observedNavigationStartTs": 188552293,
+                "observedFirstPaint": 1445,
+                "observedFirstPaintTs": 189997529,
+                "observedFirstContentfulPaint": 1553,
+                "observedFirstContentfulPaintTs": 190105588,
+                "observedFirstMeaningfulPaint": 1747,
+                "observedFirstMeaningfulPaintTs": 190298796,
+                "observedLargestContentfulPaint": 1747,
+                "observedLargestContentfulPaintTs": 190298796,
+                "observedTraceEnd": 2889,
+                "observedTraceEndTs": 191441737,
+                "observedLoad": 1706,
+                "observedLoadTs": 190258361,
+                "observedDomContentLoaded": 1433,
+                "observedDomContentLoadedTs": 189985354,
                 "observedCumulativeLayoutShift": 0.025,
                 "observedCumulativeLayoutShiftAllFrames": 0.025,
-                "observedFirstVisualChange": 1188,
-                "observedFirstVisualChangeTs": 210957539,
-                "observedLastVisualChange": 1605,
-                "observedLastVisualChangeTs": 211374539,
-                "observedSpeedIndex": 1285,
-                "observedSpeedIndexTs": 211054724
+                "observedFirstVisualChange": 1456,
+                "observedFirstVisualChangeTs": 190008293,
+                "observedLastVisualChange": 1973,
+                "observedLastVisualChangeTs": 190525293,
+                "observedSpeedIndex": 1583,
+                "observedSpeedIndexTs": 190134894
               },
               {
                 "lcpInvalidated": false
@@ -6738,18 +6744,18 @@
                 "numScripts": 5,
                 "numStylesheets": 8,
                 "numFonts": 4,
-                "numTasks": 358,
-                "numTasksOver10ms": 4,
-                "numTasksOver25ms": 2,
+                "numTasks": 327,
+                "numTasksOver10ms": 10,
+                "numTasksOver25ms": 5,
                 "numTasksOver50ms": 2,
                 "numTasksOver100ms": 1,
                 "numTasksOver500ms": 0,
-                "rtt": 7.445,
-                "throughput": 23735930.475825693,
-                "maxRtt": 84.30099999999999,
-                "maxServerLatency": 16.040000000000006,
-                "totalByteWeight": 1086352,
-                "totalTaskTime": 550.8800000000007,
+                "rtt": 10.964999999999996,
+                "throughput": 17442917.49876888,
+                "maxRtt": 113.119,
+                "maxServerLatency": 14.307000000000002,
+                "totalByteWeight": 1086334,
+                "totalTaskTime": 643.3739999999991,
                 "mainDocumentTransferSize": 3029
               }
             ]
@@ -6777,7 +6783,7 @@
       "cookiesCount": 0,
       "trackersGrade": "B",
       "trackersCount": 1,
-      "lighthouse_performance": 0.9927947998046875,
+      "lighthouse_performance": 0.9927982330322266,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.96,
       "lighthouse_accessibilityGrade": "A",
