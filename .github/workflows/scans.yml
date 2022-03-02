@@ -155,7 +155,7 @@ jobs:
         uses: "ClementNumericite/dashlord-actions/declaration-rgpd@feat/rgpd-checker"
         if: ${{ matrix.sites.tools['declaration-rgpd'] }}
         with:
-          thirdparties: "${{ steps.thirdparties.outputs['third-parties-output'] }}"
+          trackers: ${{ steps.thirdparties.outputs.trackers }}
           url: ${{ matrix.sites.url }}
           output: scans/declaration-rgpd.json
 
