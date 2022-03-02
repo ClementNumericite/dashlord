@@ -14,15 +14,15 @@ on:
       - master
       - main
     paths:
-      - 'dashlord.yaml'
-      - 'dashlord.yml'
-      - 'urls.txt'
+      - "dashlord.yaml"
+      - "dashlord.yml"
+      - "urls.txt"
 
 # allow only one concurrent scan action
 concurrency:
   cancel-in-progress: true
   group: scans
-  
+
 jobs:
   init:
     runs-on: ubuntu-latest
@@ -66,14 +66,6 @@ jobs:
           url: ${{ matrix.sites.url }}
           output: scans/declaration-a11y.json
 
-      - name: Déclaration RGPD
-        continue-on-error: true
-        uses: "ClementNumericite/dashlord-actions/declaration-rgpd@feat/rgpd-checker"
-        if: ${{ matrix.sites.tools['declaration-rgpd'] }}
-        with:
-          url: ${{ matrix.sites.url }}
-          output: scans/declaration-rgpd.json
-
       - name: Detect 404s
         continue-on-error: true
         uses: "socialgouv/detect-404-action@master"
@@ -104,7 +96,7 @@ jobs:
         if: ${{ matrix.sites.tools.stats }}
         with:
           url: ${{ matrix.sites.url }}
-          uri: 'stats'
+          uri: "stats"
           output: scans/stats.json
 
       - name: Wappalyzer scan
@@ -152,10 +144,20 @@ jobs:
         timeout-minutes: 10
         if: ${{ matrix.sites.tools.thirdparties }}
         continue-on-error: true
-        uses: SocialGouv/thirdparties-action@master
+        uses: SocialGouv/thirdparties-action@usable-output
+        id: thirdparties_action
         with:
           url: "${{ matrix.sites.url }}"
           output: "scans/thirdparties.json"
+
+      - name: Déclaration RGPD
+        continue-on-error: true
+        uses: "ClementNumericite/dashlord-actions/declaration-rgpd@feat/rgpd-checker"
+        if: ${{ matrix.sites.tools['declaration-rgpd'] }}
+        with:
+          third-parties: ${{ steps.thirdparties_action.outputs['third-parties-output'] }}
+          url: ${{ matrix.sites.url }}
+          output: scans/declaration-rgpd.json
 
       # testssl.sh action needs an hostname to save its output so we build it here
       - name: Extract hostname
@@ -174,7 +176,7 @@ jobs:
           output: scans
           grade: "F"
           options: "--fast"
-          
+
       - name: nmap vulnerabilities scan
         if: ${{ matrix.sites.tools.nmap }}
         continue-on-error: true
@@ -215,7 +217,7 @@ jobs:
           token: ${{ secrets.DEPENDABOTALERTS_TOKEN }}
           repositories: ${{ join(matrix.sites.repositories) }}
           output: scans/dependabotalerts.json
-          
+
       - name: Code quality alerts
         continue-on-error: true
         timeout-minutes: 10
