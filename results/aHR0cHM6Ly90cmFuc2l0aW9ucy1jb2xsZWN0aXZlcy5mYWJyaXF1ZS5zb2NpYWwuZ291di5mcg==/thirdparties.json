@@ -17,6 +17,14 @@
       }
     },
     {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
       "type": "youtube",
       "url": "https://www.youtube.com/s/player/9c1a7c38/www-player.css",
       "details": {
@@ -49,14 +57,6 @@
       }
     },
     {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
       "type": "google analytics",
       "url": "https://googleads.g.doubleclick.net/pagead/id",
       "details": {
@@ -73,6 +73,14 @@
       }
     },
     {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
       "type": "youtube",
       "url": "https://www.youtube.com/s/player/9c1a7c38/player_ias.vflset/en_US/remote.js",
       "details": {
@@ -82,7 +90,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.google.com/js/th/v25G8qxnFgxGQ7-jq6jkH9lJ-U48bfE8RTG7-wWSdXU.js",
+      "url": "https://www.google.com/js/th/tIUIwdUPEtL_C5LN5MYveDYToWXcmQEgBpSkxCkbSn8.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -113,6 +121,14 @@
       }
     },
     {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
       "type": "google analytics",
       "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
       "details": {
@@ -130,10 +146,26 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/generate_204?-0AEbA",
+      "url": "https://www.youtube.com/generate_204?vxtiOg",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
       }
     },
     {
@@ -151,7 +183,7 @@
       "value": "1",
       "domain": "transitions-collectives.fabrique.social.gouv.fr",
       "path": "/",
-      "expires": 1646317350,
+      "expires": 1646318641,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -163,10 +195,10 @@
     },
     {
       "name": "_pk_id.58.4da1",
-      "value": "863951c3e96bc4dd.1646315550.",
+      "value": "3984850a2ab973ea.1646316841.",
       "domain": "transitions-collectives.fabrique.social.gouv.fr",
       "path": "/",
-      "expires": 1680270750,
+      "expires": 1680272041,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -178,7 +210,7 @@
     }
   ],
   "headers": {
-    "date": "Thu, 03 Mar 2022 13:52:28 GMT",
+    "date": "Thu, 03 Mar 2022 14:13:59 GMT",
     "content-type": "text/html; charset=utf-8",
     "x-powered-by": "Next.js",
     "etag": "\"5253-Wm3poHi5GzXw9TuKS0dRYyif2wI\"",
@@ -283,12 +315,12 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "104.16.85.20",
+      "ip": "104.16.86.20",
       "geoip": null
     },
     {
       "hostname": "www.youtube.com",
-      "ip": "142.251.45.110",
+      "ip": "142.250.152.190",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -342,7 +374,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.13.67",
+      "ip": "142.250.103.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -396,7 +428,7 @@
     },
     {
       "hostname": "googleads.g.doubleclick.net",
-      "ip": "172.217.13.226",
+      "ip": "172.217.212.156",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -450,7 +482,61 @@
     },
     {
       "hostname": "static.doubleclick.net",
-      "ip": "142.250.81.198",
+      "ip": "209.85.200.148",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "jnn-pa.googleapis.com",
+      "ip": "172.253.114.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -504,7 +590,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.250.31.99",
+      "ip": "74.125.202.103",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -558,7 +644,7 @@
     },
     {
       "hostname": "yt3.ggpht.com",
-      "ip": "172.217.13.225",
+      "ip": "74.125.132.132",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -612,7 +698,7 @@
     },
     {
       "hostname": "i.ytimg.com",
-      "ip": "142.250.81.214",
+      "ip": "142.250.125.119",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -666,7 +752,7 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.250.188.35",
+      "ip": "173.194.193.94",
       "geoip": {
         "continent": {
           "code": "NA",
