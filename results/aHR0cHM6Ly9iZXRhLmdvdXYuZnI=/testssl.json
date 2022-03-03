@@ -556,14 +556,14 @@
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1646308750"
+              "finding"      : "1646314919"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "5465 seconds"
+              "finding"      : "676 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1133,6 +1133,6 @@
               "ip"           : "beta.gouv.fr/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "49"
+              "finding"      : "51"
           }
 ]
