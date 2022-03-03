@@ -21,11 +21,5 @@ tools:
   declaration-a11y: true
   declaration-rgpd: true
 urls:
-  - url: https://www.fabrique.social.gouv.fr
-    repositories:
-      - socialgouv/www
-    docker:
-      - ghcr.io/socialgouv/fabrique/frontend
-  - url: https://beta.gouv.fr
-  - url: https://emjpm.fabrique.social.gouv.fr
   - url: https://transitions-collectives.fabrique.social.gouv.fr
+  - url: https://pjm.social.gouv.fr
