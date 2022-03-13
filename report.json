@@ -5,7 +5,7 @@
     "http": {
       "url": "https://transitions-collectives.fabrique.social.gouv.fr",
       "algorithm_version": 2,
-      "end_time": "Sun, 06 Mar 2022 00:46:34 GMT",
+      "end_time": "Sun, 13 Mar 2022 00:43:55 GMT",
       "grade": "D+",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -13,16 +13,16 @@
         "Connection": "keep-alive",
         "Content-Encoding": "gzip",
         "Content-Type": "text/html; charset=utf-8",
-        "Date": "Sun, 06 Mar 2022 00:46:31 GMT",
-        "ETag": "\"5253-Wm3poHi5GzXw9TuKS0dRYyif2wI\"",
+        "Date": "Sun, 13 Mar 2022 00:43:52 GMT",
+        "ETag": "\"51fe-N+cWldMFzzi+M3FI8xjj0NKIKx0\"",
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "Transfer-Encoding": "chunked",
         "Vary": "Accept-Encoding",
         "X-Powered-By": "Next.js"
       },
-      "scan_id": 24939553,
+      "scan_id": 25108188,
       "score": 40,
-      "start_time": "Sun, 06 Mar 2022 00:44:31 GMT",
+      "start_time": "Sun, 13 Mar 2022 00:43:49 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 4,
@@ -569,7 +569,7 @@
         "ip": "transitions-collectives.fabrique.social.gouv.fr/20.74.14.77",
         "port": "443",
         "severity": "OK",
-        "finding": "89 >= 30 days"
+        "finding": "82 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -772,7 +772,7 @@
         "ip": "transitions-collectives.fabrique.social.gouv.fr/20.74.14.77",
         "port": "443",
         "severity": "INFO",
-        "finding": "1646527694"
+        "finding": "1647132333"
       },
       {
         "id": "HSTS_time",
@@ -1342,7 +1342,7 @@
         "ip": "transitions-collectives.fabrique.social.gouv.fr/20.74.14.77",
         "port": "443",
         "severity": "INFO",
-        "finding": "94"
+        "finding": "115"
       }
     ],
     "thirdparties": {
@@ -1357,7 +1357,7 @@
         },
         {
           "type": "youtube",
-          "url": "https://www.youtube.com/embed/YARhy56fwG4",
+          "url": "https://www.youtube.com/embed/tMa2_T7sewo",
           "details": {
             "id": "youtube",
             "message": "Dont embed youtube scripts, use peertube"
@@ -1365,7 +1365,7 @@
         },
         {
           "type": "youtube",
-          "url": "https://www.youtube.com/s/player/0abde7de/www-player.css",
+          "url": "https://www.youtube.com/s/player/87b9576a/www-player.css",
           "details": {
             "id": "youtube",
             "message": "Dont embed youtube scripts, use peertube"
@@ -1373,7 +1373,7 @@
         },
         {
           "type": "youtube",
-          "url": "https://www.youtube.com/s/player/0abde7de/www-embed-player.vflset/www-embed-player.js",
+          "url": "https://www.youtube.com/s/player/87b9576a/www-embed-player.vflset/www-embed-player.js",
           "details": {
             "id": "youtube",
             "message": "Dont embed youtube scripts, use peertube"
@@ -1381,7 +1381,7 @@
         },
         {
           "type": "youtube",
-          "url": "https://www.youtube.com/s/player/0abde7de/player_ias.vflset/en_US/base.js",
+          "url": "https://www.youtube.com/s/player/87b9576a/player_ias.vflset/en_US/base.js",
           "details": {
             "id": "youtube",
             "message": "Dont embed youtube scripts, use peertube"
@@ -1389,7 +1389,7 @@
         },
         {
           "type": "youtube",
-          "url": "https://www.youtube.com/s/player/0abde7de/fetch-polyfill.vflset/fetch-polyfill.js",
+          "url": "https://www.youtube.com/s/player/87b9576a/fetch-polyfill.vflset/fetch-polyfill.js",
           "details": {
             "id": "youtube",
             "message": "Dont embed youtube scripts, use peertube"
@@ -1421,7 +1421,7 @@
         },
         {
           "type": "youtube",
-          "url": "https://www.youtube.com/s/player/0abde7de/player_ias.vflset/en_US/remote.js",
+          "url": "https://www.youtube.com/s/player/87b9576a/player_ias.vflset/en_US/remote.js",
           "details": {
             "id": "youtube",
             "message": "Dont embed youtube scripts, use peertube"
@@ -1429,7 +1429,7 @@
         },
         {
           "type": "google",
-          "url": "https://www.google.com/js/th/tIUIwdUPEtL_C5LN5MYveDYToWXcmQEgBpSkxCkbSn8.js",
+          "url": "https://www.google.com/js/th/GK9RXoYhzM9BS2DwszrzkGxxQbY5VR2mx9ED2vYLgv8.js",
           "details": {
             "id": "google",
             "message": "Use hosted Matomo instance"
@@ -1437,7 +1437,7 @@
         },
         {
           "type": "youtube",
-          "url": "https://www.youtube.com/s/player/0abde7de/player_ias.vflset/en_US/embed.js",
+          "url": "https://www.youtube.com/s/player/87b9576a/player_ias.vflset/en_US/embed.js",
           "details": {
             "id": "youtube",
             "message": "Dont embed youtube scripts, use peertube"
@@ -1453,7 +1453,7 @@
         },
         {
           "type": "youtube",
-          "url": "https://i.ytimg.com/vi_webp/YARhy56fwG4/sddefault.webp",
+          "url": "https://i.ytimg.com/vi_webp/tMa2_T7sewo/maxresdefault.webp",
           "details": {
             "id": "youtube",
             "message": "Dont embed youtube scripts, use peertube"
@@ -1477,7 +1477,7 @@
         },
         {
           "type": "youtube",
-          "url": "https://www.youtube.com/generate_204?hwuwog",
+          "url": "https://www.youtube.com/generate_204?egBmhQ",
           "details": {
             "id": "youtube",
             "message": "Dont embed youtube scripts, use peertube"
@@ -1498,7 +1498,7 @@
           "value": "1",
           "domain": "transitions-collectives.fabrique.social.gouv.fr",
           "path": "/",
-          "expires": 1646529429,
+          "expires": 1647134066,
           "size": 16,
           "httpOnly": false,
           "secure": false,
@@ -1510,10 +1510,10 @@
         },
         {
           "name": "_pk_id.58.4da1",
-          "value": "08f06a639be64d5c.1646527629.",
+          "value": "c5ff6eb96fbcd7cf.1647132266.",
           "domain": "transitions-collectives.fabrique.social.gouv.fr",
           "path": "/",
-          "expires": 1680482829,
+          "expires": 1681087466,
           "size": 42,
           "httpOnly": false,
           "secure": false,
@@ -1525,10 +1525,10 @@
         }
       ],
       "headers": {
-        "date": "Sun, 06 Mar 2022 00:47:07 GMT",
+        "date": "Sun, 13 Mar 2022 00:44:24 GMT",
         "content-type": "text/html; charset=utf-8",
         "x-powered-by": "Next.js",
-        "etag": "\"5253-Wm3poHi5GzXw9TuKS0dRYyif2wI\"",
+        "etag": "\"51fe-N+cWldMFzzi+M3FI8xjj0NKIKx0\"",
         "vary": "Accept-Encoding",
         "content-encoding": "gzip",
         "strict-transport-security": "max-age=15724800; includeSubDomains"
@@ -1630,12 +1630,12 @@
         },
         {
           "hostname": "cdn.jsdelivr.net",
-          "ip": "104.16.85.20",
+          "ip": "104.16.89.20",
           "geoip": null
         },
         {
           "hostname": "www.youtube.com",
-          "ip": "172.217.15.78",
+          "ip": "172.217.214.93",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1689,7 +1689,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "172.217.164.131",
+          "ip": "74.125.129.94",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1743,7 +1743,7 @@
         },
         {
           "hostname": "googleads.g.doubleclick.net",
-          "ip": "142.250.73.226",
+          "ip": "142.250.152.157",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1797,7 +1797,7 @@
         },
         {
           "hostname": "static.doubleclick.net",
-          "ip": "142.250.73.198",
+          "ip": "142.250.125.149",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1851,7 +1851,7 @@
         },
         {
           "hostname": "www.google.com",
-          "ip": "172.217.164.132",
+          "ip": "172.217.214.103",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1905,7 +1905,7 @@
         },
         {
           "hostname": "yt3.ggpht.com",
-          "ip": "142.250.65.65",
+          "ip": "142.250.148.132",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1959,7 +1959,7 @@
         },
         {
           "hostname": "i.ytimg.com",
-          "ip": "172.217.15.86",
+          "ip": "64.233.191.119",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -2013,7 +2013,7 @@
         },
         {
           "hostname": "www.gstatic.com",
-          "ip": "142.250.65.67",
+          "ip": "142.251.6.94",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -2241,7 +2241,7 @@
     },
     "zap": {
       "@version": "2.11.1",
-      "@generated": "Sun, 6 Mar 2022 00:44:08",
+      "@generated": "Sun, 13 Mar 2022 00:43:28",
       "site": [
         {
           "@name": "https://transitions-collectives.fabrique.social.gouv.fr",
@@ -2276,13 +2276,6 @@
               "confidence": "1",
               "riskdesc": "Low (Low)",
               "desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>"
-            },
-            {
-              "name": "Incomplete or No Cache-control Header Set",
-              "riskcode": "1",
-              "confidence": "2",
-              "riskdesc": "Low (Medium)",
-              "desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content.</p>"
             },
             {
               "name": "Permissions Policy Header Not Set",
@@ -2334,6 +2327,13 @@
               "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>"
             },
             {
+              "name": "Re-examine Cache-control Directives",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>"
+            },
+            {
               "name": "Storable and Cacheable Content",
               "riskcode": "0",
               "confidence": "2",
@@ -2348,13 +2348,13 @@
     "lhr": {
       "requestedUrl": "https://transitions-collectives.fabrique.social.gouv.fr/",
       "finalUrl": "https://transitions-collectives.fabrique.social.gouv.fr/",
-      "fetchTime": "2022-03-06T00:44:17.287Z",
+      "fetchTime": "2022-03-13T00:43:36.740Z",
       "runWarnings": [],
       "categories": {
         "performance": {
           "title": "Performance",
           "id": "performance",
-          "score": 0.651759147644043
+          "score": 0.6528884887695312
         },
         "accessibility": {
           "title": "Accessibility",
@@ -2390,49 +2390,49 @@
           "description": "Collects all available metrics.",
           "score": null,
           "scoreDisplayMode": "informative",
-          "numericValue": 12091,
+          "numericValue": 12488,
           "numericUnit": "millisecond",
           "details": {
             "type": "debugdata",
             "items": [
               {
-                "firstContentfulPaint": 6584,
-                "firstMeaningfulPaint": 6584,
-                "largestContentfulPaint": 11103,
-                "firstCPUIdle": 10988,
-                "interactive": 12091,
-                "speedIndex": 7202,
-                "estimatedInputLatency": 80,
-                "totalBlockingTime": 549,
-                "maxPotentialFID": 328,
-                "cumulativeLayoutShift": 0.00826818084716797,
+                "firstContentfulPaint": 3889,
+                "firstMeaningfulPaint": 3889,
+                "largestContentfulPaint": 11371,
+                "firstCPUIdle": 10332,
+                "interactive": 12488,
+                "speedIndex": 5350,
+                "estimatedInputLatency": 111,
+                "totalBlockingTime": 566,
+                "maxPotentialFID": 322,
+                "cumulativeLayoutShift": 0.003761040581597222,
                 "cumulativeLayoutShiftAllFrames": 0,
                 "observedTimeOrigin": 0,
-                "observedTimeOriginTs": 384913329,
+                "observedTimeOriginTs": 372762759,
                 "observedNavigationStart": 0,
-                "observedNavigationStartTs": 384913329,
-                "observedFirstPaint": 569,
-                "observedFirstPaintTs": 385482255,
-                "observedFirstContentfulPaint": 569,
-                "observedFirstContentfulPaintTs": 385482255,
-                "observedFirstMeaningfulPaint": 569,
-                "observedFirstMeaningfulPaintTs": 385482255,
-                "observedLargestContentfulPaint": 1109,
-                "observedLargestContentfulPaintTs": 386022613,
-                "observedTraceEnd": 2695,
-                "observedTraceEndTs": 387607851,
-                "observedLoad": 1632,
-                "observedLoadTs": 386545473,
-                "observedDomContentLoaded": 1083,
-                "observedDomContentLoadedTs": 385996728,
-                "observedCumulativeLayoutShift": 0.00826818084716797,
+                "observedNavigationStartTs": 372762759,
+                "observedFirstPaint": 647,
+                "observedFirstPaintTs": 373409836,
+                "observedFirstContentfulPaint": 647,
+                "observedFirstContentfulPaintTs": 373409836,
+                "observedFirstMeaningfulPaint": 647,
+                "observedFirstMeaningfulPaintTs": 373409836,
+                "observedLargestContentfulPaint": 1124,
+                "observedLargestContentfulPaintTs": 373886611,
+                "observedTraceEnd": 2920,
+                "observedTraceEndTs": 375683031,
+                "observedLoad": 1862,
+                "observedLoadTs": 374624696,
+                "observedDomContentLoaded": 1103,
+                "observedDomContentLoadedTs": 373865475,
+                "observedCumulativeLayoutShift": 0.003761040581597222,
                 "observedCumulativeLayoutShiftAllFrames": 0,
-                "observedFirstVisualChange": 571,
-                "observedFirstVisualChangeTs": 385484329,
-                "observedLastVisualChange": 904,
-                "observedLastVisualChangeTs": 385817329,
-                "observedSpeedIndex": 601,
-                "observedSpeedIndexTs": 385513912
+                "observedFirstVisualChange": 655,
+                "observedFirstVisualChangeTs": 373417759,
+                "observedLastVisualChange": 1122,
+                "observedLastVisualChangeTs": 373884759,
+                "observedSpeedIndex": 688,
+                "observedSpeedIndexTs": 373451061
               },
               {
                 "lcpInvalidated": false
@@ -2450,23 +2450,23 @@
             "type": "debugdata",
             "items": [
               {
-                "numRequests": 50,
+                "numRequests": 49,
                 "numScripts": 19,
                 "numStylesheets": 3,
                 "numFonts": 6,
-                "numTasks": 863,
-                "numTasksOver10ms": 13,
+                "numTasks": 943,
+                "numTasksOver10ms": 12,
                 "numTasksOver25ms": 5,
-                "numTasksOver50ms": 5,
-                "numTasksOver100ms": 2,
+                "numTasksOver50ms": 4,
+                "numTasksOver100ms": 0,
                 "numTasksOver500ms": 0,
                 "rtt": 0,
-                "throughput": 32517485.794786785,
-                "maxRtt": 87.619,
-                "maxServerLatency": 195.69299999999998,
-                "totalByteWeight": 2874361,
-                "totalTaskTime": 801.8809999999984,
-                "mainDocumentTransferSize": 4639
+                "throughput": 24153392.105875757,
+                "maxRtt": 123.62599999999999,
+                "maxServerLatency": 206.614,
+                "totalByteWeight": 2868440,
+                "totalTaskTime": 625.8199999999969,
+                "mainDocumentTransferSize": 4609
               }
             ]
           }
@@ -2493,7 +2493,7 @@
       "cookiesCount": 2,
       "trackersGrade": "F",
       "trackersCount": 18,
-      "lighthouse_performance": 0.651759147644043,
+      "lighthouse_performance": 0.6528884887695312,
       "lighthouse_performanceGrade": "C",
       "lighthouse_accessibility": 0.9,
       "lighthouse_accessibilityGrade": "A",
@@ -2512,7 +2512,7 @@
     "http": {
       "url": "https://pjm.social.gouv.fr",
       "algorithm_version": 2,
-      "end_time": "Sun, 06 Mar 2022 00:46:34 GMT",
+      "end_time": "Sun, 13 Mar 2022 00:43:06 GMT",
       "grade": "B",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -2520,7 +2520,7 @@
         "Connection": "keep-alive",
         "Content-Encoding": "gzip",
         "Content-Type": "text/html",
-        "Date": "Sun, 06 Mar 2022 00:46:31 GMT",
+        "Date": "Sun, 13 Mar 2022 00:43:04 GMT",
         "ETag": "W/\"621b2349-676d\"",
         "Last-Modified": "Sun, 27 Feb 2022 07:07:53 GMT",
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
@@ -2530,9 +2530,9 @@
         "X-Frame-Options": "deny",
         "X-XSS-Protection": "1; mode=block"
       },
-      "scan_id": 24939549,
+      "scan_id": 25108175,
       "score": 75,
-      "start_time": "Sun, 06 Mar 2022 00:44:15 GMT",
+      "start_time": "Sun, 13 Mar 2022 00:43:01 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 1,
@@ -2939,7 +2939,7 @@
         "ip": "pjm.social.gouv.fr/20.74.14.77",
         "port": "443",
         "severity": "INFO",
-        "finding": "supported"
+        "finding": "not supported"
       },
       {
         "id": "TLS_timestamp",
@@ -3079,7 +3079,7 @@
         "ip": "pjm.social.gouv.fr/20.74.14.77",
         "port": "443",
         "severity": "OK",
-        "finding": "47 >= 30 days"
+        "finding": "40 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -3275,14 +3275,14 @@
         "ip": "pjm.social.gouv.fr/20.74.14.77",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "pjm.social.gouv.fr/20.74.14.77",
         "port": "443",
         "severity": "INFO",
-        "finding": "1646527673"
+        "finding": "1647132278"
       },
       {
         "id": "HSTS_time",
@@ -3866,7 +3866,7 @@
         "ip": "pjm.social.gouv.fr/20.74.14.77",
         "port": "443",
         "severity": "INFO",
-        "finding": "87"
+        "finding": "133"
       }
     ],
     "thirdparties": {
@@ -3898,7 +3898,7 @@
       ],
       "cookies": [],
       "headers": {
-        "date": "Sun, 06 Mar 2022 00:46:55 GMT",
+        "date": "Sun, 13 Mar 2022 00:43:34 GMT",
         "content-type": "text/html",
         "last-modified": "Sun, 27 Feb 2022 07:07:53 GMT",
         "vary": "Accept-Encoding",
@@ -4006,7 +4006,7 @@
         },
         {
           "hostname": "fonts.gstatic.com",
-          "ip": "142.250.73.195",
+          "ip": "142.250.115.94",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4071,10 +4071,10 @@
         "https://pjm.social.gouv.fr/devenir-professionnel": {
           "status": 200
         },
-        "https://pjm.social.gouv.fr/mentions-legales": {
+        "https://pjm.social.gouv.fr/professionnel/je-suis-un-mandataire-individuel": {
           "status": 200
         },
-        "https://pjm.social.gouv.fr/professionnel/je-suis-un-mandataire-individuel": {
+        "https://pjm.social.gouv.fr/mentions-legales": {
           "status": 200
         },
         "https://pjm.social.gouv.fr/professionnel/je-suis-un-service-mandataire": {
@@ -4223,7 +4223,7 @@
     },
     "zap": {
       "@version": "2.11.1",
-      "@generated": "Sun, 6 Mar 2022 00:43:59",
+      "@generated": "Sun, 13 Mar 2022 00:42:46",
       "site": [
         {
           "@name": "https://pjm.social.gouv.fr",
@@ -4258,13 +4258,6 @@
               "confidence": "1",
               "riskdesc": "Low (Low)",
               "desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>"
-            },
-            {
-              "name": "Incomplete or No Cache-control Header Set",
-              "riskcode": "1",
-              "confidence": "2",
-              "riskdesc": "Low (Medium)",
-              "desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content.</p>"
             },
             {
               "name": "Permissions Policy Header Not Set",
@@ -4302,6 +4295,13 @@
               "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>"
             },
             {
+              "name": "Re-examine Cache-control Directives",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>"
+            },
+            {
               "name": "Storable and Cacheable Content",
               "riskcode": "0",
               "confidence": "2",
@@ -4316,7 +4316,7 @@
     "lhr": {
       "requestedUrl": "https://pjm.social.gouv.fr/",
       "finalUrl": "https://pjm.social.gouv.fr/",
-      "fetchTime": "2022-03-06T00:44:08.451Z",
+      "fetchTime": "2022-03-13T00:42:54.677Z",
       "runWarnings": [],
       "categories": {
         "performance": {
@@ -4358,49 +4358,49 @@
           "description": "Collects all available metrics.",
           "score": null,
           "scoreDisplayMode": "informative",
-          "numericValue": 3324,
+          "numericValue": 3166,
           "numericUnit": "millisecond",
           "details": {
             "type": "debugdata",
             "items": [
               {
-                "firstContentfulPaint": 1452,
-                "firstMeaningfulPaint": 1452,
-                "largestContentfulPaint": 3665,
-                "firstCPUIdle": 2756,
-                "interactive": 3324,
-                "speedIndex": 1740,
+                "firstContentfulPaint": 1316,
+                "firstMeaningfulPaint": 1316,
+                "largestContentfulPaint": 3620,
+                "firstCPUIdle": 2713,
+                "interactive": 3166,
+                "speedIndex": 1982,
                 "estimatedInputLatency": 13,
-                "totalBlockingTime": 90,
-                "maxPotentialFID": 167,
+                "totalBlockingTime": 95,
+                "maxPotentialFID": 152,
                 "cumulativeLayoutShift": 0.08605855178833008,
                 "cumulativeLayoutShiftAllFrames": 0,
                 "observedTimeOrigin": 0,
-                "observedTimeOriginTs": 332183889,
+                "observedTimeOriginTs": 384415079,
                 "observedNavigationStart": 0,
-                "observedNavigationStartTs": 332183889,
-                "observedFirstPaint": 528,
-                "observedFirstPaintTs": 332711708,
-                "observedFirstContentfulPaint": 528,
-                "observedFirstContentfulPaintTs": 332711708,
-                "observedFirstMeaningfulPaint": 528,
-                "observedFirstMeaningfulPaintTs": 332711708,
-                "observedLargestContentfulPaint": 817,
-                "observedLargestContentfulPaintTs": 333001273,
-                "observedTraceEnd": 2002,
-                "observedTraceEndTs": 334186199,
-                "observedLoad": 801,
-                "observedLoadTs": 332985110,
-                "observedDomContentLoaded": 787,
-                "observedDomContentLoadedTs": 332971327,
+                "observedNavigationStartTs": 384415079,
+                "observedFirstPaint": 646,
+                "observedFirstPaintTs": 385060791,
+                "observedFirstContentfulPaint": 646,
+                "observedFirstContentfulPaintTs": 385060791,
+                "observedFirstMeaningfulPaint": 646,
+                "observedFirstMeaningfulPaintTs": 385060791,
+                "observedLargestContentfulPaint": 1122,
+                "observedLargestContentfulPaintTs": 385536795,
+                "observedTraceEnd": 2334,
+                "observedTraceEndTs": 386749025,
+                "observedLoad": 1118,
+                "observedLoadTs": 385532895,
+                "observedDomContentLoaded": 1109,
+                "observedDomContentLoadedTs": 385524095,
                 "observedCumulativeLayoutShift": 0.08605855178833008,
                 "observedCumulativeLayoutShiftAllFrames": 0,
-                "observedFirstVisualChange": 536,
-                "observedFirstVisualChangeTs": 332719889,
-                "observedLastVisualChange": 1152,
-                "observedLastVisualChangeTs": 333335889,
-                "observedSpeedIndex": 747,
-                "observedSpeedIndexTs": 332931182
+                "observedFirstVisualChange": 652,
+                "observedFirstVisualChangeTs": 385067079,
+                "observedLastVisualChange": 1386,
+                "observedLastVisualChangeTs": 385801079,
+                "observedSpeedIndex": 983,
+                "observedSpeedIndexTs": 385398250
               },
               {
                 "lcpInvalidated": false
@@ -4422,18 +4422,18 @@
                 "numScripts": 14,
                 "numStylesheets": 1,
                 "numFonts": 3,
-                "numTasks": 410,
-                "numTasksOver10ms": 4,
+                "numTasks": 395,
+                "numTasksOver10ms": 3,
                 "numTasksOver25ms": 3,
                 "numTasksOver50ms": 0,
                 "numTasksOver100ms": 0,
                 "numTasksOver500ms": 0,
-                "rtt": 5.186,
-                "throughput": 11107402.910365434,
-                "maxRtt": 82.56899999999999,
-                "maxServerLatency": 14.77600000000001,
-                "totalByteWeight": 373921,
-                "totalTaskTime": 235.1509999999999,
+                "rtt": 7.969999999999999,
+                "throughput": 6472190.368214782,
+                "maxRtt": 109.881,
+                "maxServerLatency": 8.517999999999997,
+                "totalByteWeight": 373913,
+                "totalTaskTime": 234.49799999999993,
                 "mainDocumentTransferSize": 4065
               }
             ]
