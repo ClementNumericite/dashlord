@@ -10,7 +10,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/embed/YARhy56fwG4",
+      "url": "https://www.youtube.com/embed/tMa2_T7sewo",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -18,7 +18,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/0abde7de/www-player.css",
+      "url": "https://www.youtube.com/s/player/87b9576a/www-player.css",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -26,7 +26,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/0abde7de/www-embed-player.vflset/www-embed-player.js",
+      "url": "https://www.youtube.com/s/player/87b9576a/www-embed-player.vflset/www-embed-player.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -34,7 +34,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/0abde7de/player_ias.vflset/en_US/base.js",
+      "url": "https://www.youtube.com/s/player/87b9576a/player_ias.vflset/en_US/base.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -42,7 +42,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/0abde7de/fetch-polyfill.vflset/fetch-polyfill.js",
+      "url": "https://www.youtube.com/s/player/87b9576a/fetch-polyfill.vflset/fetch-polyfill.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -74,7 +74,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/0abde7de/player_ias.vflset/en_US/remote.js",
+      "url": "https://www.youtube.com/s/player/87b9576a/player_ias.vflset/en_US/remote.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -82,7 +82,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.google.com/js/th/tIUIwdUPEtL_C5LN5MYveDYToWXcmQEgBpSkxCkbSn8.js",
+      "url": "https://www.google.com/js/th/GK9RXoYhzM9BS2DwszrzkGxxQbY5VR2mx9ED2vYLgv8.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -90,7 +90,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/0abde7de/player_ias.vflset/en_US/embed.js",
+      "url": "https://www.youtube.com/s/player/87b9576a/player_ias.vflset/en_US/embed.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -106,7 +106,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://i.ytimg.com/vi_webp/YARhy56fwG4/sddefault.webp",
+      "url": "https://i.ytimg.com/vi_webp/tMa2_T7sewo/maxresdefault.webp",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -130,7 +130,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/generate_204?hwuwog",
+      "url": "https://www.youtube.com/generate_204?egBmhQ",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -151,7 +151,7 @@
       "value": "1",
       "domain": "transitions-collectives.fabrique.social.gouv.fr",
       "path": "/",
-      "expires": 1646529429,
+      "expires": 1647134066,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -163,10 +163,10 @@
     },
     {
       "name": "_pk_id.58.4da1",
-      "value": "08f06a639be64d5c.1646527629.",
+      "value": "c5ff6eb96fbcd7cf.1647132266.",
       "domain": "transitions-collectives.fabrique.social.gouv.fr",
       "path": "/",
-      "expires": 1680482829,
+      "expires": 1681087466,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -178,10 +178,10 @@
     }
   ],
   "headers": {
-    "date": "Sun, 06 Mar 2022 00:47:07 GMT",
+    "date": "Sun, 13 Mar 2022 00:44:24 GMT",
     "content-type": "text/html; charset=utf-8",
     "x-powered-by": "Next.js",
-    "etag": "\"5253-Wm3poHi5GzXw9TuKS0dRYyif2wI\"",
+    "etag": "\"51fe-N+cWldMFzzi+M3FI8xjj0NKIKx0\"",
     "vary": "Accept-Encoding",
     "content-encoding": "gzip",
     "strict-transport-security": "max-age=15724800; includeSubDomains"
@@ -283,12 +283,12 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "104.16.85.20",
+      "ip": "104.16.89.20",
       "geoip": null
     },
     {
       "hostname": "www.youtube.com",
-      "ip": "172.217.15.78",
+      "ip": "172.217.214.93",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -342,7 +342,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.164.131",
+      "ip": "74.125.129.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -396,7 +396,7 @@
     },
     {
       "hostname": "googleads.g.doubleclick.net",
-      "ip": "142.250.73.226",
+      "ip": "142.250.152.157",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -450,7 +450,7 @@
     },
     {
       "hostname": "static.doubleclick.net",
-      "ip": "142.250.73.198",
+      "ip": "142.250.125.149",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -504,7 +504,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "172.217.164.132",
+      "ip": "172.217.214.103",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -558,7 +558,7 @@
     },
     {
       "hostname": "yt3.ggpht.com",
-      "ip": "142.250.65.65",
+      "ip": "142.250.148.132",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -612,7 +612,7 @@
     },
     {
       "hostname": "i.ytimg.com",
-      "ip": "172.217.15.86",
+      "ip": "64.233.191.119",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -666,7 +666,7 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.250.65.67",
+      "ip": "142.251.6.94",
       "geoip": {
         "continent": {
           "code": "NA",
