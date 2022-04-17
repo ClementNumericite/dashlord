@@ -27,7 +27,7 @@
   ],
   "cookies": [],
   "headers": {
-    "date": "Sun, 10 Apr 2022 00:52:11 GMT",
+    "date": "Sun, 17 Apr 2022 00:57:40 GMT",
     "content-type": "text/html",
     "last-modified": "Sat, 09 Apr 2022 18:38:22 GMT",
     "vary": "Accept-Encoding",
@@ -86,7 +86,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
+          "accuracy_radius": 20,
           "latitude": 48.8323,
           "longitude": 2.4075,
           "time_zone": "Europe/Paris"
@@ -135,7 +135,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.188.195",
+      "ip": "172.217.214.94",
       "geoip": {
         "continent": {
           "code": "NA",
