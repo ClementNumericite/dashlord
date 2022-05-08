@@ -18,7 +18,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/9cdfefcf/www-player.css",
+      "url": "https://www.youtube.com/s/player/a4d8b401/www-player.css",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -26,7 +26,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/9cdfefcf/www-embed-player.vflset/www-embed-player.js",
+      "url": "https://www.youtube.com/s/player/a4d8b401/www-embed-player.vflset/www-embed-player.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -34,7 +34,15 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/9cdfefcf/player_ias.vflset/en_US/base.js",
+      "url": "https://www.youtube.com/s/player/a4d8b401/player_ias.vflset/en_US/base.js",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/a4d8b401/fetch-polyfill.vflset/fetch-polyfill.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -46,14 +54,6 @@
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/9cdfefcf/fetch-polyfill.vflset/fetch-polyfill.js",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
       }
     },
     {
@@ -90,7 +90,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/9cdfefcf/player_ias.vflset/en_US/remote.js",
+      "url": "https://www.youtube.com/s/player/a4d8b401/player_ias.vflset/en_US/remote.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -98,7 +98,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.google.com/js/th/-VrFTrdkvDltPjgq0ehWXbZDQsH93PIClx2OnGFxhmo.js",
+      "url": "https://www.google.com/js/th/J-JqwDdrHMrAGx52GI7A_c8zl3LVl5ImfaYMzf75s1I.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -106,7 +106,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/9cdfefcf/player_ias.vflset/en_US/embed.js",
+      "url": "https://www.youtube.com/s/player/a4d8b401/player_ias.vflset/en_US/embed.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -146,7 +146,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/generate_204?hYAfpQ",
+      "url": "https://www.youtube.com/generate_204?0CEQLQ",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -183,7 +183,7 @@
       "value": "1",
       "domain": "transco.travail-emploi.gouv.fr",
       "path": "/",
-      "expires": 1651369094,
+      "expires": 1651973107,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -195,10 +195,10 @@
     },
     {
       "name": "_pk_id.58.c757",
-      "value": "18f0c36b1e8f80a3.1651367295.",
+      "value": "38702f5fd1c4559f.1651971307.",
       "domain": "transco.travail-emploi.gouv.fr",
       "path": "/",
-      "expires": 1685322495,
+      "expires": 1685926507,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -210,10 +210,10 @@
     }
   ],
   "headers": {
-    "date": "Sun, 01 May 2022 01:08:13 GMT",
+    "date": "Sun, 08 May 2022 00:55:05 GMT",
     "content-type": "text/html; charset=utf-8",
     "x-powered-by": "Next.js",
-    "etag": "\"51fe-zZYFjK3fPsW7mOPdaH8tr5RvHaI\"",
+    "etag": "\"51fe-W0knceCwLos3Wph0Ynkk/RWMp4o\"",
     "vary": "Accept-Encoding",
     "content-encoding": "gzip",
     "strict-transport-security": "max-age=15724800; includeSubDomains"
@@ -315,12 +315,12 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "104.16.89.20",
+      "ip": "104.16.85.20",
       "geoip": null
     },
     {
       "hostname": "www.youtube.com",
-      "ip": "172.217.2.110",
+      "ip": "172.253.62.190",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -374,7 +374,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.45.3",
+      "ip": "172.253.115.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -428,7 +428,7 @@
     },
     {
       "hostname": "googleads.g.doubleclick.net",
-      "ip": "172.217.1.194",
+      "ip": "172.253.62.154",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -482,7 +482,7 @@
     },
     {
       "hostname": "static.doubleclick.net",
-      "ip": "142.251.16.149",
+      "ip": "172.253.115.148",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -536,7 +536,7 @@
     },
     {
       "hostname": "jnn-pa.googleapis.com",
-      "ip": "172.253.115.95",
+      "ip": "142.251.45.106",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -590,7 +590,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "172.253.63.103",
+      "ip": "172.253.115.106",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -698,7 +698,7 @@
     },
     {
       "hostname": "i.ytimg.com",
-      "ip": "172.253.62.119",
+      "ip": "142.251.16.119",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -752,7 +752,7 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.250.65.67",
+      "ip": "172.217.1.195",
       "geoip": {
         "continent": {
           "code": "NA",
