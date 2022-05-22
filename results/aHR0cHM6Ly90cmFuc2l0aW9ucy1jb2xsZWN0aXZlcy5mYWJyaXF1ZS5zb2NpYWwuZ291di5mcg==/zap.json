@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 15 May 2022 01:09:13",
+	"@generated": "Sun, 22 May 2022 00:56:36",
 	"site":[ 
 		{
 			"@name": "https://transitions-collectives.fabrique.social.gouv.fr",
@@ -179,12 +179,12 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "51fe-W0knceCwLos3Wph0Ynkk/RWMp4o"
+							"evidence": "51fe-1+DeELq2nBP/yPTRDfvk6fB97Kg"
 						}
 					],
 					"count": "1",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFDW\uFFFD\uFFFDm$\uFFFD\u01C2\uFFFD\uFFFD,\uFFFDja\u0449\uFFFD\uFFFDV2\uFFFD(</p>",
+					"otherinfo": "<p>\uFFFDW\uFFFD\uFFFD_\uFFFDxB\uFFFD\uFFFDpO\uFFFD#\uFFFDD7\uF4E7\uFFFD\uFFFD\uFFFD\uFFFD</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
@@ -210,7 +210,7 @@
 					],
 					"count": "1",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"lrQI_DsdzfcbmRzWvw\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"Lp6z1G72EXP6cSJiD6\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
