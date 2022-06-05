@@ -1,10 +1,10 @@
-# Nmap 7.91 scan initiated Sun May 29 01:02:27 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln pjm.social.gouv.fr
+# Nmap 7.92 scan initiated Sun Jun  5 01:03:46 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln pjm.social.gouv.fr
 Nmap scan report for pjm.social.gouv.fr (20.74.14.77)
-Host is up (0.086s latency).
-Not shown: 998 filtered ports
+Host is up (0.083s latency).
+Not shown: 998 filtered tcp ports (no-response)
 PORT    STATE SERVICE  VERSION
 80/tcp  open  http     nginx (reverse proxy)
 443/tcp open  ssl/http nginx (reverse proxy)
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun May 29 01:02:57 2022 -- 1 IP address (1 host up) scanned in 30.74 seconds
+# Nmap done at Sun Jun  5 01:04:17 2022 -- 1 IP address (1 host up) scanned in 30.39 seconds
