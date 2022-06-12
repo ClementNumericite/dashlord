@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 5 Jun 2022 01:01:04",
+	"@generated": "Sun, 12 Jun 2022 01:00:17",
 	"site":[ 
 		{
 			"@name": "https://pjm.social.gouv.fr",
@@ -250,7 +250,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "66"
+					"sourceid": "68"
 				},
 				{
 					"pluginid": "10063",
