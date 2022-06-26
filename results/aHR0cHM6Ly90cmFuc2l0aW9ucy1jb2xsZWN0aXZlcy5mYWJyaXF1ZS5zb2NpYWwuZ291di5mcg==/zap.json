@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 19 Jun 2022 00:59:09",
+	"@generated": "Sun, 26 Jun 2022 01:02:03",
 	"site":[ 
 		{
 			"@name": "https://transitions-collectives.fabrique.social.gouv.fr",
@@ -179,12 +179,12 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "51fe-1+DeELq2nBP/yPTRDfvk6fB97Kg"
+							"evidence": "5115-WbECNwhd81Ihl64QulWOewSkVJY"
 						}
 					],
 					"count": "1",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFDW\uFFFD\uFFFD_\uFFFDxB\uFFFD\uFFFDpO\uFFFD#\uFFFDD7\uF4E7\uFFFD\uFFFD\uFFFD\uFFFD</p>",
+					"otherinfo": "<p>\uFFFD]y\uFFFDf\uFFFD\\x0008\uFFFD!w\uFFFDH\uFFFD^\uFFFDB\uFFFDV9\uFFFD\\x0012\uFFFDRX</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
@@ -210,7 +210,7 @@
 					],
 					"count": "1",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"Lp6z1G72EXP6cSJiD6\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"oxTCSFxxX1h98gsR5i\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
@@ -231,7 +231,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a href=\"/\" title=\"Minist\u00E8re du travail, de l&#x27;emploi et de l&#x27;insertion\" target=\"_self\" class=\"ds-fr--no-shadow\"><p class=\"fr-logo\">Minist\u00E8re<br/>du travail,<br/>de l&#x27;emploi<br/>et de l&#x27;insertion</p></a>"
+							"evidence": "<a href=\"/\" title=\"Accueil\" target=\"_self\" class=\"ds-fr--no-shadow\"><p class=\"fr-logo\">Minist\u00E8re<br/> du travail,<br/>du plein emploi<br/>et de l&#x27;insertion</p></a>"
 						}
 					],
 					"count": "1",
