@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 31 Jul 2022 01:05:02",
+	"@generated": "Sun, 7 Aug 2022 01:06:25",
 	"site":[ 
 		{
 			"@name": "https://pjm.social.gouv.fr",
@@ -32,7 +32,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "74"
+					"sourceid": "77"
 				},
 				{
 					"pluginid": "10038",
@@ -227,6 +227,32 @@
 					"sourceid": "1"
 				},
 				{
+					"pluginid": "10003",
+					"alertRef": "10003",
+					"alert": "Vulnerable JS Library",
+					"name": "Vulnerable JS Library",
+					"riskcode": "2",
+					"confidence": "2",
+					"riskdesc": "Medium (Medium)",
+					"desc": "<p>The identified library nextjs, version 11.1.4 is vulnerable.</p>",
+					"instances":[ 
+						{
+							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/main-77a3ef3c4209de166c9f.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "document.getElementById(\"__NEXT_DATA__\").textContent);window.__NEXT_DATA__=j;t.version=\"11.1.4\""
+						}
+					],
+					"count": "1",
+					"solution": "<p>Please upgrade to the latest version of nextjs.</p>",
+					"otherinfo": "<p>CVE-2022-23646</p><p></p>",
+					"reference": "<p>https://github.com/vercel/next.js/security/advisories/GHSA-fmvm-x8mv-47mj</p><p></p>",
+					"cweid": "829",
+					"wascid": "-1",
+					"sourceid": "77"
+				},
+				{
 					"pluginid": "10110",
 					"alertRef": "10110",
 					"alert": "Dangerous JS Functions",
@@ -250,7 +276,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "68"
+					"sourceid": "66"
 				},
 				{
 					"pluginid": "10063",
@@ -463,7 +489,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "75"
+					"sourceid": "74"
 				},
 				{
 					"pluginid": "10094",
@@ -518,7 +544,7 @@
 							"evidence": "VMN8HGADJ9JA3HTL5D28z-AqF4so6aHiBGHst3Oz69g"
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-agrement-des-mandataires-individuels",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
 							"method": "GET",
 							"param": "",
 							"attack": "",
