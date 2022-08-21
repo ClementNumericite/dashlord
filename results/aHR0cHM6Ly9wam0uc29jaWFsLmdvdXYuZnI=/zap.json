@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 14 Aug 2022 01:02:23",
+	"@generated": "Sun, 21 Aug 2022 01:02:01",
 	"site":[ 
 		{
 			"@name": "https://pjm.social.gouv.fr",
@@ -32,7 +32,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "75"
+					"sourceid": "74"
 				},
 				{
 					"pluginid": "10038",
@@ -250,7 +250,7 @@
 					"reference": "<p>https://github.com/vercel/next.js/security/advisories/GHSA-fmvm-x8mv-47mj</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "75"
+					"sourceid": "74"
 				},
 				{
 					"pluginid": "10110",
@@ -489,7 +489,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "74"
+					"sourceid": "75"
 				},
 				{
 					"pluginid": "10094",
