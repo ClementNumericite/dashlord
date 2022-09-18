@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 11 Sep 2022 01:12:30",
+	"@generated": "Sun, 18 Sep 2022 01:14:53",
 	"site":[ 
 		{
 			"@name": "https://pjm.social.gouv.fr",
@@ -32,7 +32,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "75"
+					"sourceid": "74"
 				},
 				{
 					"pluginid": "10038",
@@ -154,7 +154,7 @@
 					"reference": "<p>https://github.com/vercel/next.js/security/advisories/GHSA-fmvm-x8mv-47mj</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "75"
+					"sourceid": "74"
 				},
 				{
 					"pluginid": "10096",
@@ -167,111 +167,20 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server - Unix</p>",
 					"instances":[ 
 						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/framework-895f067827ebe11ffe45.js",
+							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/pages/_app-6d349ca06714337fd653.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1073741823"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/framework-895f067827ebe11ffe45.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1073741824"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/framework-895f067827ebe11ffe45.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1073741825"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/framework-895f067827ebe11ffe45.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "134217727"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/framework-895f067827ebe11ffe45.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "134217728"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/framework-895f067827ebe11ffe45.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "268435456"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/framework-895f067827ebe11ffe45.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "33554432"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/framework-895f067827ebe11ffe45.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "62914560"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/framework-895f067827ebe11ffe45.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "67108864"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/framework-895f067827ebe11ffe45.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "805306368"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "0123456789"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "2147483647"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/tarteaucitron/tarteaucitron.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "20191031"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/tarteaucitron/tarteaucitron.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "86400000"
+							"evidence": "1540483477"
 						}
 					],
-					"count": "14",
+					"count": "1",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
-					"otherinfo": "<p>1073741823, which evaluates to: 2004-01-10 13:37:03</p>",
+					"otherinfo": "<p>1540483477, which evaluates to: 2018-10-25 16:04:37</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "74"
+					"sourceid": "76"
 				},
 				{
 					"pluginid": "10027",
@@ -375,8 +284,8 @@
 					"alert": "Re-examine Cache-control Directives",
 					"name": "Re-examine Cache-control Directives",
 					"riskcode": "0",
-					"confidence": "2",
-					"riskdesc": "Informational (Medium)",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
@@ -460,7 +369,7 @@
 					"count": "11",
 					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
 					"otherinfo": "",
-					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p>",
+					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
 					"sourceid": "1"
