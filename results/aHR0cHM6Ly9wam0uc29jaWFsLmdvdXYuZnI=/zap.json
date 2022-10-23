@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 16 Oct 2022 01:23:14",
+	"@generated": "Sun, 23 Oct 2022 01:15:40",
 	"site":[ 
 		{
 			"@name": "https://pjm.social.gouv.fr",
@@ -87,7 +87,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -183,7 +183,7 @@
 							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />"
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -276,7 +276,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "66"
+					"sourceid": "68"
 				},
 				{
 					"pluginid": "10063",
@@ -398,7 +398,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "78"
+					"sourceid": "76"
 				},
 				{
 					"pluginid": "10094",
@@ -741,7 +741,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
 							"method": "GET",
 							"param": "Cache-Control",
 							"attack": "",
