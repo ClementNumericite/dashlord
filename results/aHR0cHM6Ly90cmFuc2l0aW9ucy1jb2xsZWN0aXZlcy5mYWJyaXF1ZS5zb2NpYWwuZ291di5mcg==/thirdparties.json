@@ -18,7 +18,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/24c6f8bd/www-player.css",
+      "url": "https://www.youtube.com/s/player/19fc75cf/www-player.css",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -42,7 +42,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/24c6f8bd/www-embed-player.vflset/www-embed-player.js",
+      "url": "https://www.youtube.com/s/player/19fc75cf/www-embed-player.vflset/www-embed-player.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -50,7 +50,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/24c6f8bd/player_ias.vflset/en_US/base.js",
+      "url": "https://www.youtube.com/s/player/19fc75cf/player_ias.vflset/en_US/base.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -58,7 +58,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/24c6f8bd/fetch-polyfill.vflset/fetch-polyfill.js",
+      "url": "https://www.youtube.com/s/player/19fc75cf/fetch-polyfill.vflset/fetch-polyfill.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -98,7 +98,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/24c6f8bd/player_ias.vflset/en_US/remote.js",
+      "url": "https://www.youtube.com/s/player/19fc75cf/player_ias.vflset/en_US/remote.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -106,7 +106,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.google.com/js/th/4tfOQvN7jkOjl-XJptbJRMDKonuctR4YaRgLNEs4SL8.js",
+      "url": "https://www.google.com/js/th/PJkulU-G08v7JckZMeNSZvqVIBPCjlLmLXUvorg-pEg.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -114,10 +114,18 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/24c6f8bd/player_ias.vflset/en_US/embed.js",
+      "url": "https://www.youtube.com/s/player/19fc75cf/player_ias.vflset/en_US/embed.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "google analytics",
+      "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+      "details": {
+        "id": "google analytics",
+        "message": "Use hosted Matomo instance"
       }
     },
     {
@@ -137,14 +145,6 @@
       }
     },
     {
-      "type": "google analytics",
-      "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
-      "details": {
-        "id": "google analytics",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
       "type": "google",
       "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
       "details": {
@@ -154,7 +154,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/generate_204?mVJfxg",
+      "url": "https://www.youtube.com/generate_204?DZZ2sw",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -191,7 +191,7 @@
       "value": "1",
       "domain": "transco.travail-emploi.gouv.fr",
       "path": "/",
-      "expires": 1666489571,
+      "expires": 1667094338,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -203,10 +203,10 @@
     },
     {
       "name": "_pk_id.58.c757",
-      "value": "f5dd4ae7806dfcaf.1666487771.",
+      "value": "ac6fb72026a79119.1667092538.",
       "domain": "transco.travail-emploi.gouv.fr",
       "path": "/",
-      "expires": 1700442971,
+      "expires": 1701047738,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -218,7 +218,7 @@
     }
   ],
   "headers": {
-    "date": "Sun, 23 Oct 2022 01:16:10 GMT",
+    "date": "Sun, 30 Oct 2022 01:15:36 GMT",
     "content-type": "text/html; charset=utf-8",
     "x-powered-by": "Next.js",
     "etag": "\"5115-WbECNwhd81Ihl64QulWOewSkVJY\"",
@@ -323,7 +323,7 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "104.16.85.20",
+      "ip": "104.16.87.20",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -343,7 +343,7 @@
     },
     {
       "hostname": "www.youtube.com",
-      "ip": "142.251.16.91",
+      "ip": "142.250.191.46",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -397,7 +397,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.163.94",
+      "ip": "142.250.191.35",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -451,7 +451,7 @@
     },
     {
       "hostname": "googleads.g.doubleclick.net",
-      "ip": "142.250.31.156",
+      "ip": "142.250.189.226",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -505,8 +505,16 @@
     },
     {
       "hostname": "static.doubleclick.net",
-      "ip": "172.253.115.148",
+      "ip": "142.250.72.198",
       "geoip": {
+        "city": {
+          "geoname_id": 5118626,
+          "names": {
+            "en": "Glen Cove",
+            "ja": "グレンコーブ",
+            "ru": "Глен-Коув"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -537,9 +545,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 40.8627,
+          "longitude": -73.6351,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11542"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -554,12 +566,28 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "jnn-pa.googleapis.com",
-      "ip": "172.217.15.74",
+      "ip": "142.250.188.10",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -613,7 +641,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.251.163.147",
+      "ip": "142.250.191.36",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -667,7 +695,7 @@
     },
     {
       "hostname": "yt3.ggpht.com",
-      "ip": "142.251.163.132",
+      "ip": "142.250.189.225",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -721,8 +749,16 @@
     },
     {
       "hostname": "i.ytimg.com",
-      "ip": "172.253.62.119",
+      "ip": "142.250.72.214",
       "geoip": {
+        "city": {
+          "geoname_id": 5118626,
+          "names": {
+            "en": "Glen Cove",
+            "ja": "グレンコーブ",
+            "ru": "Глен-Коув"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -753,9 +789,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 40.8627,
+          "longitude": -73.6351,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11542"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -770,12 +810,28 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "172.253.122.94",
+      "ip": "142.251.46.195",
       "geoip": {
         "continent": {
           "code": "NA",
