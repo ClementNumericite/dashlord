@@ -1,6 +1,6 @@
 {
-	"@version": "2.11.1",
-	"@generated": "Sun, 23 Oct 2022 01:15:40",
+	"@version": "2.12.0",
+	"@generated": "Sun, 30 Oct 2022 01:14:21",
 	"site":[ 
 		{
 			"@name": "https://pjm.social.gouv.fr",
@@ -32,7 +32,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "74"
+					"sourceid": "120"
 				},
 				{
 					"pluginid": "10038",
@@ -87,7 +87,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -190,6 +190,13 @@
 							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />"
 						},
 						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />"
+						},
+						{
 							"uri": "https://pjm.social.gouv.fr/mentions-legales",
 							"method": "GET",
 							"param": "",
@@ -218,7 +225,7 @@
 							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />"
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Provide a valid integrity attribute to the tag.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
@@ -250,7 +257,7 @@
 					"reference": "<p>https://github.com/vercel/next.js/security/advisories/GHSA-fmvm-x8mv-47mj</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "74"
+					"sourceid": "120"
 				},
 				{
 					"pluginid": "10110",
@@ -276,7 +283,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "68"
+					"sourceid": "109"
 				},
 				{
 					"pluginid": "10063",
@@ -303,21 +310,35 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/webpack-fb76148cfcfb42ca18eb.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://pjm.social.gouv.fr/devenir-professionnel",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/appel-a-candidatures-et-a-projets",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-formation-au-certificat-national-de-competences",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-agrement-des-mandataires-individuels",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -346,20 +367,6 @@
 						},
 						{
 							"uri": "https://pjm.social.gouv.fr/robots.txt",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/tarteaucitron/initTarteaucitron.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/tarteaucitron/tarteaucitron.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -398,7 +405,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "76"
+					"sourceid": "118"
 				},
 				{
 					"pluginid": "10094",
@@ -419,13 +426,6 @@
 						},
 						{
 							"uri": "https://pjm.social.gouv.fr/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "VMN8HGADJ9JA3HTL5D28z-AqF4so6aHiBGHst3Oz69g"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/pages/_app-6d349ca06714337fd653.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -460,6 +460,20 @@
 							"evidence": "VMN8HGADJ9JA3HTL5D28z-AqF4so6aHiBGHst3Oz69g"
 						},
 						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "VMN8HGADJ9JA3HTL5D28z-AqF4so6aHiBGHst3Oz69g"
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "VMN8HGADJ9JA3HTL5D28z-AqF4so6aHiBGHst3Oz69g"
+						},
+						{
 							"uri": "https://pjm.social.gouv.fr/mentions-legales",
 							"method": "GET",
 							"param": "",
@@ -488,7 +502,7 @@
 							"evidence": "VMN8HGADJ9JA3HTL5D28z-AqF4so6aHiBGHst3Oz69g"
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
 					"otherinfo": "<p>T\uFFFD|\\x001c`\\x0003'\uFFFD@\uFFFDt\uFFFD\uFFFD=\uFFFD\uFFFD\uFFFD*\\x0017\uFFFD(\uFFFD\uFFFD\\x0004a\uFFFDs\uFFFD\uFFFD\uFFFD</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
@@ -528,6 +542,34 @@
 							"evidence": "query"
 						},
 						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/appel-a-candidatures-et-a-projets",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query"
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-formation-au-certificat-national-de-competences",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query"
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-agrement-des-mandataires-individuels",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query"
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query"
+						},
+						{
 							"uri": "https://pjm.social.gouv.fr/mentions-legales",
 							"method": "GET",
 							"param": "",
@@ -554,34 +596,6 @@
 							"param": "",
 							"attack": "",
 							"evidence": "query"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/tarteaucitron/initTarteaucitron.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "user"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/tarteaucitron/tarteaucitron.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "from"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/tarteaucitron/tarteaucitron.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "query"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/tarteaucitron/tarteaucitron.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "user"
 						}
 					],
 					"count": "11",
@@ -617,20 +631,6 @@
 							"evidence": "<a href=\"#\" class=\"css-11yfvnr\">Accessibilit\u00E9 : non conforme</a>"
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/framework-895f067827ebe11ffe45.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script>"
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script>"
-						},
-						{
 							"uri": "https://pjm.social.gouv.fr/devenir-professionnel",
 							"method": "GET",
 							"param": "",
@@ -646,6 +646,20 @@
 						},
 						{
 							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-formation-au-certificat-national-de-competences",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a href=\"#\" class=\"css-11yfvnr\">Accessibilit\u00E9 : non conforme</a>"
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-agrement-des-mandataires-individuels",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a href=\"#\" class=\"css-11yfvnr\">Accessibilit\u00E9 : non conforme</a>"
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -741,7 +755,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement",
 							"method": "GET",
 							"param": "Cache-Control",
 							"attack": "",
@@ -816,7 +830,21 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/favicon.ico",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/appel-a-candidatures-et-a-projets",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-formation-au-certificat-national-de-competences",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-agrement-des-mandataires-individuels",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -852,20 +880,6 @@
 						},
 						{
 							"uri": "https://pjm.social.gouv.fr/sitemap.xml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/tarteaucitron/initTarteaucitron.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/tarteaucitron/tarteaucitron.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
