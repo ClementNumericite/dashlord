@@ -27,7 +27,7 @@
   ],
   "cookies": [],
   "headers": {
-    "date": "Sun, 06 Nov 2022 01:05:39 GMT",
+    "date": "Sun, 13 Nov 2022 01:02:31 GMT",
     "content-type": "text/html",
     "last-modified": "Thu, 16 Jun 2022 19:55:03 GMT",
     "vary": "Accept-Encoding",
@@ -135,7 +135,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.113.94",
+      "ip": "142.250.114.94",
       "geoip": {
         "continent": {
           "code": "NA",
