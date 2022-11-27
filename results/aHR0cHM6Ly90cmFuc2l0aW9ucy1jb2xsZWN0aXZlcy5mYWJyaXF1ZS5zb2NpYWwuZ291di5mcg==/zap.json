@@ -1,6 +1,7 @@
 {
+	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 20 Nov 2022 01:03:49",
+	"@generated": "Sun, 27 Nov 2022 01:00:16",
 	"site":[ 
 		{
 			"@name": "https://transitions-collectives.fabrique.social.gouv.fr",
