@@ -1,10 +1,91 @@
-# Nmap 7.92 scan initiated Sun Jan 29 01:00:36 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln transitions-collectives.fabrique.social.gouv.fr
+# Nmap 7.92 scan initiated Sun Feb  5 01:00:58 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln transitions-collectives.fabrique.social.gouv.fr
 Nmap scan report for transitions-collectives.fabrique.social.gouv.fr (20.74.14.77)
-Host is up (0.13s latency).
+Host is up (0.10s latency).
 Not shown: 998 filtered tcp ports (no-response)
-PORT    STATE SERVICE  VERSION
-80/tcp  open  http     nginx (reverse proxy)
-443/tcp open  ssl/http nginx (reverse proxy)
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      nginx (reverse proxy)
+443/tcp open  ssl/https
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 500 Internal Server Error
+|     Date: Sun, 05 Feb 2023 01:01:20 GMT
+|     Connection: close
+|     Strict-Transport-Security: max-age=15724800; includeSubDomains
+|     <html>
+|     <head>
+|     <meta charset="UTF-8" />
+|     <title>Maintenance</title>
+|     <script src="https://browser.sentry-cdn.com/5.15.5/bundle.min.js"></script>
+|     <style>
+|     from https://codepen.io/cluzier/pen/BOZmMp */
+|     html,
+|     body {
+|     height: 100%;
+|     overflow: hidden;
+|     background: #f7f7f7;
+|     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+|     .error-page {
+|     display: flex;
+|     align-items: center;
+|     justify-content: center;
+|     text-align: center;
+|     height: 100%;
+|     margin-top: -10vh;
+|     .error-page h1 {
+|     font-size: 10vh;
+|     font-weight: bold;
+|     position: relative;
+|     padding: 0;
+|_    margin-bottom:
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=2/5%Time=63DEFFE0%P=x86_64-alpine-linux-
+SF:musl%r(GetRequest,142C,"HTTP/1\.1\x20500\x20Internal\x20Server\x20Error
+SF:\r\nDate:\x20Sun,\x2005\x20Feb\x202023\x2001:01:20\x20GMT\r\nConnection
+SF::\x20close\r\nStrict-Transport-Security:\x20max-age=15724800;\x20includ
+SF:eSubDomains\r\n\r\n<html>\n\x20\x20<head>\n\x20\x20\x20\x20<meta\x20cha
+SF:rset=\"UTF-8\"\x20/>\n\x20\x20\x20\x20<title>Maintenance</title>\n\x20\
+SF:x20\x20\x20<script\x20src=\"https://browser\.sentry-cdn\.com/5\.15\.5/b
+SF:undle\.min\.js\"></script>\n\x20\x20\x20\x20<style>\n\x20\x20\x20\x20\x
+SF:20\x20/\*\x20CSS\x20from\x20https://codepen\.io/cluzier/pen/BOZmMp\x20\
+SF:*/\n\x20\x20\x20\x20\x20\x20html,\n\x20\x20\x20\x20\x20\x20body\x20{\n\
+SF:x20\x20\x20\x20\x20\x20\x20\x20height:\x20100%;\n\x20\x20\x20\x20\x20\x
+SF:20\x20\x20overflow:\x20hidden;\n\x20\x20\x20\x20\x20\x20\x20\x20backgro
+SF:und:\x20#f7f7f7;\n\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20Arial
+SF:,\x20\"Helvetica\x20Neue\",\x20Helvetica,\x20sans-serif;\n\x20\x20\x20\
+SF:x20\x20\x20}\n\n\x20\x20\x20\x20\x20\x20\.error-page\x20{\n\x20\x20\x20
+SF:\x20\x20\x20\x20\x20display:\x20flex;\n\x20\x20\x20\x20\x20\x20\x20\x20
+SF:align-items:\x20center;\n\x20\x20\x20\x20\x20\x20\x20\x20justify-conten
+SF:t:\x20center;\n\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\n
+SF:\x20\x20\x20\x20\x20\x20\x20\x20height:\x20100%;\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20margin-top:\x20-10vh;\n\x20\x20\x20\x20\x20\x20}\n\x20\x20\x
+SF:20\x20\x20\x20\.error-page\x20h1\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20
+SF:font-size:\x2010vh;\n\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20bo
+SF:ld;\n\x20\x20\x20\x20\x20\x20\x20\x20position:\x20relative;\n\x20\x20\x
+SF:20\x20\x20\x20\x20\x20padding:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20m
+SF:argin-bottom:")%r(HTTPOptions,142C,"HTTP/1\.1\x20500\x20Internal\x20Ser
+SF:ver\x20Error\r\nDate:\x20Sun,\x2005\x20Feb\x202023\x2001:01:20\x20GMT\r
+SF:\nConnection:\x20close\r\nStrict-Transport-Security:\x20max-age=1572480
+SF:0;\x20includeSubDomains\r\n\r\n<html>\n\x20\x20<head>\n\x20\x20\x20\x20
+SF:<meta\x20charset=\"UTF-8\"\x20/>\n\x20\x20\x20\x20<title>Maintenance</t
+SF:itle>\n\x20\x20\x20\x20<script\x20src=\"https://browser\.sentry-cdn\.co
+SF:m/5\.15\.5/bundle\.min\.js\"></script>\n\x20\x20\x20\x20<style>\n\x20\x
+SF:20\x20\x20\x20\x20/\*\x20CSS\x20from\x20https://codepen\.io/cluzier/pen
+SF:/BOZmMp\x20\*/\n\x20\x20\x20\x20\x20\x20html,\n\x20\x20\x20\x20\x20\x20
+SF:body\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20height:\x20100%;\n\x20\x20\x
+SF:20\x20\x20\x20\x20\x20overflow:\x20hidden;\n\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20background:\x20#f7f7f7;\n\x20\x20\x20\x20\x20\x20\x20\x20font-fami
+SF:ly:\x20Arial,\x20\"Helvetica\x20Neue\",\x20Helvetica,\x20sans-serif;\n\
+SF:x20\x20\x20\x20\x20\x20}\n\n\x20\x20\x20\x20\x20\x20\.error-page\x20{\n
+SF:\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\n\x20\x20\x20\x20\x20
+SF:\x20\x20\x20align-items:\x20center;\n\x20\x20\x20\x20\x20\x20\x20\x20ju
+SF:stify-content:\x20center;\n\x20\x20\x20\x20\x20\x20\x20\x20text-align:\
+SF:x20center;\n\x20\x20\x20\x20\x20\x20\x20\x20height:\x20100%;\n\x20\x20\
+SF:x20\x20\x20\x20\x20\x20margin-top:\x20-10vh;\n\x20\x20\x20\x20\x20\x20}
+SF:\n\x20\x20\x20\x20\x20\x20\.error-page\x20h1\x20{\n\x20\x20\x20\x20\x20
+SF:\x20\x20\x20font-size:\x2010vh;\n\x20\x20\x20\x20\x20\x20\x20\x20font-w
+SF:eight:\x20bold;\n\x20\x20\x20\x20\x20\x20\x20\x20position:\x20relative;
+SF:\n\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200;\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20margin-bottom:");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Jan 29 01:01:11 2023 -- 1 IP address (1 host up) scanned in 35.11 seconds
+# Nmap done at Sun Feb  5 01:01:44 2023 -- 1 IP address (1 host up) scanned in 45.70 seconds

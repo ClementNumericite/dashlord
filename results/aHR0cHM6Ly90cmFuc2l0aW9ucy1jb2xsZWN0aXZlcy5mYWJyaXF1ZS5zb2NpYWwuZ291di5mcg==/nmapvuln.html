@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln transitions-collectives.fabrique.social.gouv.fr</pre>
-<p class="lead">Sun Jan 29 01:00:36 2023 – Sun Jan 29 01:01:11 2023<br>1 hosts scanned.
+<p class="lead">Sun Feb  5 01:00:58 2023 – Sun Feb  5 01:01:44 2023<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -121,12 +121,46 @@
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http</td>
-<td title="Product">nginx</td>
+<td title="Service">https</td>
+<td title="Product"></td>
 <td title="Version"></td>
-<td title="Extra Info">reverse proxy</td>
+<td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx">cpe:/a:igor_sysoev:nginx</a></td></tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  GetRequest, HTTPOptions: 
+    HTTP/1.1 500 Internal Server Error
+    Date: Sun, 05 Feb 2023 01:01:20 GMT
+    Connection: close
+    Strict-Transport-Security: max-age=15724800; includeSubDomains
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;meta charset="UTF-8" /&gt;
+    &lt;title&gt;Maintenance&lt;/title&gt;
+    &lt;script src="https://browser.sentry-cdn.com/5.15.5/bundle.min.js"&gt;&lt;/script&gt;
+    &lt;style&gt;
+    from https://codepen.io/cluzier/pen/BOZmMp */
+    html,
+    body {
+    height: 100%;
+    overflow: hidden;
+    background: #f7f7f7;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    .error-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    margin-top: -10vh;
+    .error-page h1 {
+    font-size: 10vh;
+    font-weight: bold;
+    position: relative;
+    padding: 0;
+    margin-bottom:</pre>
+</td></tr>
 </tbody>
 </table></div>
 </div>
@@ -158,11 +192,11 @@
 <td>20.74.14.77 - transitions-collectives.fabrique.social.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>http</td>
-<td>nginx</td>
+<td>https</td>
 <td></td>
-<td>cpe:/a:igor_sysoev:nginx</td>
-<td>reverse proxy</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table></div>
