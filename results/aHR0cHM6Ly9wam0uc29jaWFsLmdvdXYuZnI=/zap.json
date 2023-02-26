@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 19 Feb 2023 00:56:16",
+	"@generated": "Sun, 26 Feb 2023 01:00:55",
 	"site":[ 
 		{
 			"@name": "https://pjm.social.gouv.fr",
@@ -33,7 +33,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "138"
+					"sourceid": "142"
 				},
 				{
 					"pluginid": "10055",
@@ -53,7 +53,7 @@
 							"evidence": "default-src 'self'; connect-src 'self' https://*.gouv.fr; font-src 'self' https://fonts.gstatic.com/; media-src 'self' https://*.gouv.fr; img-src 'self' https://*.gouv.fr https://a.tile.openstreetmap.org https://b.tile.openstreetmap.org https://c.tile.openstreetmap.org; prefetch-src 'self' https://*.gouv.fr; script-src 'self' https://*.gouv.fr 'unsafe-inline'; frame-src 'self' https://*.gouv.fr; style-src 'self' 'unsafe-inline'"
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/appel-a-candidatures-et-a-projets",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -93,7 +93,7 @@
 							"evidence": "default-src 'self'; connect-src 'self' https://*.gouv.fr; font-src 'self' https://fonts.gstatic.com/; media-src 'self' https://*.gouv.fr; img-src 'self' https://*.gouv.fr https://a.tile.openstreetmap.org https://b.tile.openstreetmap.org https://c.tile.openstreetmap.org; prefetch-src 'self' https://*.gouv.fr; script-src 'self' https://*.gouv.fr 'unsafe-inline'; frame-src 'self' https://*.gouv.fr; style-src 'self' 'unsafe-inline'"
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/appel-a-candidatures-et-a-projets",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -113,7 +113,7 @@
 					"reference": "<p>http://www.w3.org/TR/CSP2/</p><p>http://www.w3.org/TR/CSP/</p><p>http://caniuse.com/#search=content+security+policy</p><p>http://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "42"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10055",
@@ -133,7 +133,7 @@
 							"evidence": "default-src 'self'; connect-src 'self' https://*.gouv.fr; font-src 'self' https://fonts.gstatic.com/; media-src 'self' https://*.gouv.fr; img-src 'self' https://*.gouv.fr https://a.tile.openstreetmap.org https://b.tile.openstreetmap.org https://c.tile.openstreetmap.org; prefetch-src 'self' https://*.gouv.fr; script-src 'self' https://*.gouv.fr 'unsafe-inline'; frame-src 'self' https://*.gouv.fr; style-src 'self' 'unsafe-inline'"
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/appel-a-candidatures-et-a-projets",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -153,7 +153,7 @@
 					"reference": "<p>http://www.w3.org/TR/CSP2/</p><p>http://www.w3.org/TR/CSP/</p><p>http://caniuse.com/#search=content+security+policy</p><p>http://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "42"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90003",
@@ -229,6 +229,13 @@
 							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />"
 						},
 						{
+							"uri": "https://pjm.social.gouv.fr/politique-de-confidentialite",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />"
+						},
+						{
 							"uri": "https://pjm.social.gouv.fr/professionnel",
 							"method": "GET",
 							"param": "",
@@ -243,13 +250,13 @@
 							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />"
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Provide a valid integrity attribute to the tag.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "42"
 				},
 				{
 					"pluginid": "10003",
@@ -275,7 +282,7 @@
 					"reference": "<p>https://github.com/vercel/next.js/security/advisories/GHSA-fmvm-x8mv-47mj</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "138"
+					"sourceid": "142"
 				},
 				{
 					"pluginid": "10110",
@@ -301,7 +308,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "132"
+					"sourceid": "136"
 				},
 				{
 					"pluginid": "10063",
@@ -370,7 +377,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/mentions-legales",
+							"uri": "https://pjm.social.gouv.fr/politique-de-confidentialite",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -397,7 +404,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</p><p>https://developers.google.com/web/updates/2018/06/feature-policy</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "42"
 				},
 				{
 					"pluginid": "10096",
@@ -423,7 +430,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "140"
+					"sourceid": "139"
 				},
 				{
 					"pluginid": "10094",
@@ -499,7 +506,7 @@
 							"evidence": "VMN8HGADJ9JA3HTL5D28z-AqF4so6aHiBGHst3Oz69g"
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/professionnel",
+							"uri": "https://pjm.social.gouv.fr/politique-de-confidentialite",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -519,7 +526,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "42"
 				},
 				{
 					"pluginid": "10027",
@@ -595,7 +602,7 @@
 							"evidence": "query"
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/professionnel",
+							"uri": "https://pjm.social.gouv.fr/politique-de-confidentialite",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -691,7 +698,7 @@
 							"evidence": "<a href=\"#\" class=\"css-11yfvnr\">Accessibilit\u00E9 : non conforme</a>"
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/professionnel",
+							"uri": "https://pjm.social.gouv.fr/politique-de-confidentialite",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -787,7 +794,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/professionnel",
+							"uri": "https://pjm.social.gouv.fr/politique-de-confidentialite",
 							"method": "GET",
 							"param": "Cache-Control",
 							"attack": "",
@@ -876,7 +883,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/mentions-legales",
+							"uri": "https://pjm.social.gouv.fr/politique-de-confidentialite",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -903,7 +910,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "42"
 				}
 			]
 		}
