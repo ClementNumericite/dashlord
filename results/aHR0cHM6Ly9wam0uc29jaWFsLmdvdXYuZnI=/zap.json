@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 5 Mar 2023 01:01:52",
+	"@generated": "Sun, 12 Mar 2023 00:57:17",
 	"site":[ 
 		{
 			"@name": "https://pjm.social.gouv.fr",
@@ -33,7 +33,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "80"
+					"sourceid": "74"
 				},
 				{
 					"pluginid": "10055",
@@ -73,7 +73,7 @@
 					"reference": "<p>http://www.w3.org/TR/CSP2/</p><p>http://www.w3.org/TR/CSP/</p><p>http://caniuse.com/#search=content+security+policy</p><p>http://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10055",
@@ -249,7 +249,7 @@
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10003",
@@ -275,7 +275,7 @@
 					"reference": "<p>https://github.com/vercel/next.js/security/advisories/GHSA-fmvm-x8mv-47mj</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "80"
+					"sourceid": "74"
 				},
 				{
 					"pluginid": "10110",
@@ -301,7 +301,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "64"
+					"sourceid": "68"
 				},
 				{
 					"pluginid": "10063",
@@ -322,6 +322,13 @@
 						},
 						{
 							"uri": "https://pjm.social.gouv.fr/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/main-77a3ef3c4209de166c9f.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -382,13 +389,6 @@
 							"param": "",
 							"attack": "",
 							"evidence": ""
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/tarteaucitron/tarteaucitron.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
 						}
 					],
 					"count": "11",
@@ -397,7 +397,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</p><p>https://developers.google.com/web/updates/2018/06/feature-policy</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10096",
@@ -423,7 +423,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "75"
+					"sourceid": "77"
 				},
 				{
 					"pluginid": "10094",
@@ -546,6 +546,27 @@
 							"evidence": "query"
 						},
 						{
+							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/main-77a3ef3c4209de166c9f.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query"
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/pages/_app-6d349ca06714337fd653.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "select"
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query"
+						},
+						{
 							"uri": "https://pjm.social.gouv.fr/devenir-professionnel",
 							"method": "GET",
 							"param": "",
@@ -609,13 +630,13 @@
 							"evidence": "user"
 						}
 					],
-					"count": "11",
+					"count": "14",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
 					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"h9rITMfPtIUvXi5J_-\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10109",
