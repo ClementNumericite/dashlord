@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Mar 19 01:01:33 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln transitions-collectives.fabrique.social.gouv.fr
+# Nmap 7.92 scan initiated Sun Mar 26 00:58:30 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln transitions-collectives.fabrique.social.gouv.fr
 Host: 20.74.14.77 ()	Status: Up
 Host: 20.74.14.77 ()	Ports: 80/open/tcp//http//nginx (reverse proxy)/, 443/open/tcp//ssl|http//nginx (reverse proxy)/	Ignored State: filtered (998)
-# Nmap done at Sun Mar 19 01:02:05 2023 -- 1 IP address (1 host up) scanned in 31.83 seconds
+# Nmap done at Sun Mar 26 00:59:02 2023 -- 1 IP address (1 host up) scanned in 32.76 seconds
