@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 30 Apr 2023 00:54:58",
+	"@generated": "Sun, 7 May 2023 00:54:08",
 	"site":[ 
 		{
 			"@name": "https://pjm.social.gouv.fr",
@@ -9,33 +9,6 @@
 			"@port": "443",
 			"@ssl": "true",
 			"alerts": [ 
-				{
-					"pluginid": "90022",
-					"alertRef": "90022",
-					"alert": "Application Error Disclosure",
-					"name": "Application Error Disclosure",
-					"riskcode": "2",
-					"confidence": "2",
-					"riskdesc": "Medium (Medium)",
-					"desc": "<p>This page contains an error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception. This information can be used to launch further attacks against the web application. The alert could be a false positive if the error message is found inside a documentation page.</p>",
-					"instances":[ 
-						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/main-77a3ef3c4209de166c9f.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Internal Server Error",
-							"otherinfo": ""
-						}
-					],
-					"count": "1",
-					"solution": "<p>Review the source code of this page. Implement custom error pages. Consider implementing a mechanism to provide a unique error reference/identifier to the client (browser) while logging the details on the server side and not exposing them to the user.</p>",
-					"otherinfo": "",
-					"reference": "",
-					"cweid": "200",
-					"wascid": "13",
-					"sourceid": "78"
-				},
 				{
 					"pluginid": "10055",
 					"alertRef": "10055-4",
@@ -77,7 +50,7 @@
 					"reference": "<p>http://www.w3.org/TR/CSP2/</p><p>http://www.w3.org/TR/CSP/</p><p>http://caniuse.com/#search=content+security+policy</p><p>http://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10055",
@@ -120,7 +93,7 @@
 					"reference": "<p>http://www.w3.org/TR/CSP2/</p><p>http://www.w3.org/TR/CSP/</p><p>http://caniuse.com/#search=content+security+policy</p><p>http://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10055",
@@ -163,7 +136,7 @@
 					"reference": "<p>http://www.w3.org/TR/CSP2/</p><p>http://www.w3.org/TR/CSP/</p><p>http://caniuse.com/#search=content+security+policy</p><p>http://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90003",
@@ -232,6 +205,14 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://pjm.social.gouv.fr/mentions-legales",
 							"method": "GET",
 							"param": "",
@@ -264,7 +245,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Provide a valid integrity attribute to the tag.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
@@ -297,7 +278,7 @@
 					"reference": "<p>https://github.com/vercel/next.js/security/advisories/GHSA-fmvm-x8mv-47mj</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "78"
+					"sourceid": "74"
 				},
 				{
 					"pluginid": "10110",
@@ -353,7 +334,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/pages/index-bea0c993992fda2e335c.js",
+							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/main-77a3ef3c4209de166c9f.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -458,11 +439,11 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "75"
+					"sourceid": "76"
 				},
 				{
 					"pluginid": "10094",
-					"alertRef": "10094",
+					"alertRef": "10094-3",
 					"alert": "Base64 Disclosure",
 					"name": "Base64 Disclosure",
 					"riskcode": "0",
@@ -594,22 +575,6 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"s4hxa2MRm67kAhIEQC\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/pages/_app-6d349ca06714337fd653.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "select",
-							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in the element starting with: \"(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[888],{7279:function(e,r,t){\"use strict\";function n(e,r){return(n=Object\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"!function(){var t=\"undefined\"!=typeof globalThis?globalThis:\"undefined\"!=typeof window?window:\"undefined\"!=typeof global?global:\", see evidence field for the suspicious comment/snippet."
-						},
-						{
 							"uri": "https://pjm.social.gouv.fr/devenir-professionnel",
 							"method": "GET",
 							"param": "",
@@ -682,7 +647,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected 2 times, the first in the element starting with: \"    if (isResponded === false && tarteaucitron.user.bypass === true) {\", see evidence field for the suspicious comment/snippet."
 						}
 					],
-					"count": "13",
+					"count": "11",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
 					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"s4hxa2MRm67kAhIEQC\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
@@ -749,6 +714,14 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a href=\"#\" class=\"css-11yfvnr\">Accessibilit\u00E9 : non conforme</a>",
+							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
+						},
+						{
 							"uri": "https://pjm.social.gouv.fr/mentions-legales",
 							"method": "GET",
 							"param": "",
@@ -766,14 +739,6 @@
 						},
 						{
 							"uri": "https://pjm.social.gouv.fr/professionnel",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a href=\"#\" class=\"css-11yfvnr\">Accessibilit\u00E9 : non conforme</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/professionnel/je-suis-un-mandataire-individuel/cessation-d-activite",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -864,14 +829,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement",
-							"method": "GET",
-							"param": "Cache-Control",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://pjm.social.gouv.fr/mentions-legales",
 							"method": "GET",
 							"param": "Cache-Control",
@@ -896,14 +853,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/professionnel/je-suis-un-mandataire-individuel/cessation-d-activite",
-							"method": "GET",
-							"param": "Cache-Control",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://pjm.social.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Cache-Control",
@@ -912,7 +861,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "13",
+					"count": "11",
 					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
