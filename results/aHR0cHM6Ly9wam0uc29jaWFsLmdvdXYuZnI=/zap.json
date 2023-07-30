@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.13.0",
-	"@generated": "Sun, 23 Jul 2023 00:58:06",
+	"@generated": "Sun, 30 Jul 2023 00:53:19",
 	"site":[ 
 		{
 			"@name": "https://pjm.social.gouv.fr",
@@ -50,7 +50,7 @@
 					"reference": "<p>http://www.w3.org/TR/CSP2/</p><p>http://www.w3.org/TR/CSP/</p><p>http://caniuse.com/#search=content+security+policy</p><p>http://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10055",
@@ -93,7 +93,7 @@
 					"reference": "<p>http://www.w3.org/TR/CSP2/</p><p>http://www.w3.org/TR/CSP/</p><p>http://caniuse.com/#search=content+security+policy</p><p>http://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10055",
@@ -270,7 +270,7 @@
 					"reference": "<p>https://github.com/vercel/next.js/security/advisories/GHSA-fmvm-x8mv-47mj</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "73"
+					"sourceid": "77"
 				},
 				{
 					"pluginid": "10110",
@@ -326,7 +326,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/main-77a3ef3c4209de166c9f.js",
+							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -431,7 +431,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "76"
+					"sourceid": "78"
 				},
 				{
 					"pluginid": "10094",
@@ -492,7 +492,7 @@
 							"otherinfo": "T\uFFFD|\\x001c`\\x0003'\uFFFD@\uFFFDt\uFFFD\uFFFD=\uFFFD\uFFFD\uFFFD*\\x0017\uFFFD(\uFFFD\uFFFD\\x0004a\uFFFDs\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-agrement-des-mandataires-individuels",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -538,7 +538,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10027",
@@ -556,7 +556,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"rJ652dRKzMuLjdyxzN\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"ttWZ6HmwpWGm51bI6k\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://pjm.social.gouv.fr/",
@@ -564,7 +564,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"rJ652dRKzMuLjdyxzN\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"ttWZ6HmwpWGm51bI6k\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://pjm.social.gouv.fr/devenir-professionnel",
@@ -580,7 +580,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/mentions-legales\",\"query\":{},\"buildId\":\"rJ\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/mentions-legales\",\"query\":{},\"buildId\":\"tt\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://pjm.social.gouv.fr/politique-de-confidentialite",
@@ -596,7 +596,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/professionnel\",\"query\":{},\"buildId\":\"rJ652\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/professionnel\",\"query\":{},\"buildId\":\"ttWZ6\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://pjm.social.gouv.fr/robots.txt",
@@ -641,7 +641,7 @@
 					],
 					"count": "11",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"rJ652dRKzMuLjdyxzN\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"ttWZ6HmwpWGm51bI6k\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
