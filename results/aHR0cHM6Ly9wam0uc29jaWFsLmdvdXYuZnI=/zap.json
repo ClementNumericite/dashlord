@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 18 Feb 2024 00:46:15",
+	"@generated": "Sun, 25 Feb 2024 00:46:12",
 	"site":[ 
 		{
 			"@name": "https://pjm.social.gouv.fr",
@@ -42,7 +42,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10055",
@@ -77,7 +77,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10055",
@@ -157,7 +157,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-agrement-des-mandataires-individuels",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-formation-au-certificat-national-de-competences",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -246,7 +246,7 @@
 					"reference": "<p>https://github.com/vercel/next.js/security/advisories/GHSA-fmvm-x8mv-47mj</p><p>https://github.com/advisories/GHSA-c59h-r6p8-q9wc</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "90"
+					"sourceid": "82"
 				},
 				{
 					"pluginid": "10055",
@@ -337,7 +337,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js",
+							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/pages/index-bea0c993992fda2e335c.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -415,7 +415,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10096",
@@ -442,7 +442,7 @@
 					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "77"
+					"sourceid": "75"
 				},
 				{
 					"pluginid": "10094",
@@ -454,6 +454,22 @@
 					"riskdesc": "Informational (Medium)",
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
+						{
+							"uri": "https://pjm.social.gouv.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "VMN8HGADJ9JA3HTL5D28z-AqF4so6aHiBGHst3Oz69g",
+							"otherinfo": "T\uFFFD|\\x001c`\\x0003'\uFFFD@\uFFFDt\uFFFD\uFFFD=\uFFFD\uFFFD\uFFFD*\\x0017\uFFFD(\uFFFD\uFFFD\\x0004a\uFFFDs\uFFFD\uFFFD\uFFFD"
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "VMN8HGADJ9JA3HTL5D28z-AqF4so6aHiBGHst3Oz69g",
+							"otherinfo": "T\uFFFD|\\x001c`\\x0003'\uFFFD@\uFFFDt\uFFFD\uFFFD=\uFFFD\uFFFD\uFFFD*\\x0017\uFFFD(\uFFFD\uFFFD\\x0004a\uFFFDs\uFFFD\uFFFD\uFFFD"
+						},
 						{
 							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/pages/_app-6d349ca06714337fd653.js",
 							"method": "GET",
@@ -479,7 +495,7 @@
 							"otherinfo": "T\uFFFD|\\x001c`\\x0003'\uFFFD@\uFFFDt\uFFFD\uFFFD=\uFFFD\uFFFD\uFFFD*\\x0017\uFFFD(\uFFFD\uFFFD\\x0004a\uFFFDs\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-agrement-des-mandataires-individuels",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-formation-au-certificat-national-de-competences",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -527,13 +543,13 @@
 							"otherinfo": "T\uFFFD|\\x001c`\\x0003'\uFFFD@\uFFFDt\uFFFD\uFFFD=\uFFFD\uFFFD\uFFFD*\\x0017\uFFFD(\uFFFD\uFFFD\\x0004a\uFFFDs\uFFFD\uFFFD\uFFFD"
 						}
 					],
-					"count": "9",
+					"count": "11",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
 					"otherinfo": "<p>T\uFFFD|\\x001c`\\x0003'\uFFFD@\uFFFDt\uFFFD\uFFFD=\uFFFD\uFFFD\uFFFD*\\x0017\uFFFD(\uFFFD\uFFFD\\x0004a\uFFFDs\uFFFD\uFFFD\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "77"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10027",
@@ -685,7 +701,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-agrement-des-mandataires-individuels",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-formation-au-certificat-national-de-competences",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -792,7 +808,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-agrement-des-mandataires-individuels",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-formation-au-certificat-national-de-competences",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -897,7 +913,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -983,7 +999,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -1026,7 +1042,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
@@ -1071,7 +1087,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/favicon.ico",
+							"uri": "https://pjm.social.gouv.fr/mentions-legales",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1079,7 +1095,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/mentions-legales",
+							"uri": "https://pjm.social.gouv.fr/politique-de-confidentialite",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1133,7 +1149,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				}
 			]
 		}

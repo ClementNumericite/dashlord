@@ -346,7 +346,7 @@
               "ip"           : "pjm.social.gouv.fr/57.128.91.43",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "81 >= 30 days"
+              "finding"      : "74 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "pjm.social.gouv.fr/57.128.91.43",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1708217241"
+              "finding"      : "1708822048"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1091,6 +1091,6 @@
               "ip"           : "pjm.social.gouv.fr/57.128.91.43",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "53"
+              "finding"      : "69"
           }
 ]
