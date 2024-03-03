@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 25 Feb 2024 00:46:12",
+	"@generated": "Sun, 3 Mar 2024 00:45:20",
 	"site":[ 
 		{
 			"@name": "https://pjm.social.gouv.fr",
@@ -28,7 +28,7 @@
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: \nframe-ancestors, form-action\n\nThe directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything."
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/",
+							"uri": "https://pjm.social.gouv.fr/professionnel",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -63,7 +63,7 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/",
+							"uri": "https://pjm.social.gouv.fr/professionnel",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -98,7 +98,7 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/",
+							"uri": "https://pjm.social.gouv.fr/professionnel",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -112,7 +112,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90003",
@@ -157,23 +157,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-formation-au-certificat-national-de-competences",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-agrement-des-mandataires-individuels",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -205,6 +189,22 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://pjm.social.gouv.fr/professionnel/je-suis-un-mandataire-individuel",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/professionnel/je-suis-un-service-mandataire",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://pjm.social.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -219,7 +219,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10003",
@@ -246,7 +246,7 @@
 					"reference": "<p>https://github.com/vercel/next.js/security/advisories/GHSA-fmvm-x8mv-47mj</p><p>https://github.com/advisories/GHSA-c59h-r6p8-q9wc</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "82"
+					"sourceid": "81"
 				},
 				{
 					"pluginid": "10055",
@@ -267,7 +267,7 @@
 							"otherinfo": "Warnings:\nThe prefetch-src directive has been deprecated\n"
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/",
+							"uri": "https://pjm.social.gouv.fr/professionnel",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -281,7 +281,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10110",
@@ -308,7 +308,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "58"
+					"sourceid": "59"
 				},
 				{
 					"pluginid": "10063",
@@ -337,7 +337,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/pages/index-bea0c993992fda2e335c.js",
+							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/webpack-fb76148cfcfb42ca18eb.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -345,7 +345,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/webpack-fb76148cfcfb42ca18eb.js",
+							"uri": "https://pjm.social.gouv.fr/_next/static/mu1ZU-tu3S_nMbs_aqvMx/_buildManifest.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -415,7 +415,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10096",
@@ -442,7 +442,7 @@
 					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "75"
+					"sourceid": "82"
 				},
 				{
 					"pluginid": "10094",
@@ -503,14 +503,6 @@
 							"otherinfo": "T\uFFFD|\\x001c`\\x0003'\uFFFD@\uFFFDt\uFFFD\uFFFD=\uFFFD\uFFFD\uFFFD*\\x0017\uFFFD(\uFFFD\uFFFD\\x0004a\uFFFDs\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "VMN8HGADJ9JA3HTL5D28z-AqF4so6aHiBGHst3Oz69g",
-							"otherinfo": "T\uFFFD|\\x001c`\\x0003'\uFFFD@\uFFFDt\uFFFD\uFFFD=\uFFFD\uFFFD\uFFFD*\\x0017\uFFFD(\uFFFD\uFFFD\\x0004a\uFFFDs\uFFFD\uFFFD\uFFFD"
-						},
-						{
 							"uri": "https://pjm.social.gouv.fr/mentions-legales",
 							"method": "GET",
 							"param": "",
@@ -527,7 +519,7 @@
 							"otherinfo": "T\uFFFD|\\x001c`\\x0003'\uFFFD@\uFFFDt\uFFFD\uFFFD=\uFFFD\uFFFD\uFFFD*\\x0017\uFFFD(\uFFFD\uFFFD\\x0004a\uFFFDs\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/professionnel",
+							"uri": "https://pjm.social.gouv.fr/professionnel/je-suis-un-mandataire-individuel",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -543,7 +535,7 @@
 							"otherinfo": "T\uFFFD|\\x001c`\\x0003'\uFFFD@\uFFFDt\uFFFD\uFFFD=\uFFFD\uFFFD\uFFFD*\\x0017\uFFFD(\uFFFD\uFFFD\\x0004a\uFFFDs\uFFFD\uFFFD\uFFFD"
 						}
 					],
-					"count": "11",
+					"count": "10",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
 					"otherinfo": "<p>T\uFFFD|\\x001c`\\x0003'\uFFFD@\uFFFDt\uFFFD\uFFFD=\uFFFD\uFFFD\uFFFD*\\x0017\uFFFD(\uFFFD\uFFFD\\x0004a\uFFFDs\uFFFD\uFFFD\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
@@ -701,23 +693,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-formation-au-certificat-national-de-competences",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a href=\"#\" class=\"css-11yfvnr\">Accessibilit\u00E9 : non conforme</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a href=\"#\" class=\"css-11yfvnr\">Accessibilit\u00E9 : non conforme</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-agrement-des-mandataires-individuels",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -749,6 +725,22 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
+							"uri": "https://pjm.social.gouv.fr/professionnel/je-suis-un-mandataire-individuel",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a href=\"#\" class=\"css-11yfvnr\">Accessibilit\u00E9 : non conforme</a>",
+							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/professionnel/je-suis-un-service-mandataire",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a href=\"#\" class=\"css-11yfvnr\">Accessibilit\u00E9 : non conforme</a>",
+							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
+						},
+						{
 							"uri": "https://pjm.social.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -763,7 +755,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10015",
@@ -816,15 +808,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-agrement-des-mandataires-individuels",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -856,6 +840,22 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://pjm.social.gouv.fr/professionnel/je-suis-un-mandataire-individuel",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/professionnel/je-suis-un-service-mandataire",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://pjm.social.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "cache-control",
@@ -864,13 +864,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -891,7 +891,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/",
+							"uri": "https://pjm.social.gouv.fr/professionnel",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -913,7 +913,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -934,7 +934,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/",
+							"uri": "https://pjm.social.gouv.fr/professionnel",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -956,7 +956,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -977,15 +977,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/sitemap.xml",
+							"uri": "https://pjm.social.gouv.fr/professionnel",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -993,7 +985,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
@@ -1020,7 +1012,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/",
+							"uri": "https://pjm.social.gouv.fr/professionnel",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1042,7 +1034,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10049",
@@ -1149,7 +1141,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				}
 			]
 		}
