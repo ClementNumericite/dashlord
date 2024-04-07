@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 31 Mar 2024 00:48:15",
+	"@generated": "Sun, 7 Apr 2024 00:48:42",
 	"site":[ 
 		{
 			"@name": "https://pjm.social.gouv.fr",
@@ -42,7 +42,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10055",
@@ -157,6 +157,14 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-formation-au-certificat-national-de-competences",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
 							"method": "GET",
 							"param": "",
@@ -190,14 +198,6 @@
 						},
 						{
 							"uri": "https://pjm.social.gouv.fr/professionnel",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/professionnel/je-suis-un-mandataire-individuel/demande-de-nouvel-agrement",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -246,7 +246,7 @@
 					"reference": "<p>https://github.com/vercel/next.js/security/advisories/GHSA-fmvm-x8mv-47mj</p><p>https://github.com/advisories/GHSA-c59h-r6p8-q9wc</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "84"
+					"sourceid": "71"
 				},
 				{
 					"pluginid": "10055",
@@ -308,7 +308,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "58"
+					"sourceid": "57"
 				},
 				{
 					"pluginid": "10063",
@@ -330,6 +330,22 @@
 						},
 						{
 							"uri": "https://pjm.social.gouv.fr/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/main-77a3ef3c4209de166c9f.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/pages/_app-6d349ca06714337fd653.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -369,22 +385,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/politique-de-confidentialite",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/professionnel",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://pjm.social.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -415,7 +415,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10096",
@@ -442,7 +442,7 @@
 					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "85"
+					"sourceid": "69"
 				},
 				{
 					"pluginid": "10094",
@@ -495,7 +495,7 @@
 							"otherinfo": "T\uFFFD|\\x001c`\\x0003'\uFFFD@\uFFFDt\uFFFD\uFFFD=\uFFFD\uFFFD\uFFFD*\\x0017\uFFFD(\uFFFD\uFFFD\\x0004a\uFFFDs\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-formation-au-certificat-national-de-competences",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -503,7 +503,7 @@
 							"otherinfo": "T\uFFFD|\\x001c`\\x0003'\uFFFD@\uFFFDt\uFFFD\uFFFD=\uFFFD\uFFFD\uFFFD*\\x0017\uFFFD(\uFFFD\uFFFD\\x0004a\uFFFDs\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-de-declaration-des-preposes-d-etablissement",
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -549,7 +549,7 @@
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10027",
@@ -578,6 +578,22 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"mu1ZU-tu3S_nMbs_aq\", see evidence field for the suspicious comment/snippet."
 						},
 						{
+							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/main-77a3ef3c4209de166c9f.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[179],{7228:function(e){e.exports=function(e,t){(null==t||t>e.length)&&(\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"!function(){var t=\"undefined\"!=typeof globalThis?globalThis:\"undefined\"!=typeof window?window:\"undefined\"!=typeof global?global:\", see evidence field for the suspicious comment/snippet."
+						},
+						{
 							"uri": "https://pjm.social.gouv.fr/devenir-professionnel",
 							"method": "GET",
 							"param": "",
@@ -592,22 +608,6 @@
 							"attack": "",
 							"evidence": "query",
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/mentions-legales\",\"query\":{},\"buildId\":\"mu\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/politique-de-confidentialite",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/politique-de-confidentialite\",\"query\":{},\"\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/professionnel",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/professionnel\",\"query\":{},\"buildId\":\"mu1ZU\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://pjm.social.gouv.fr/robots.txt",
@@ -701,6 +701,14 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-formation-au-certificat-national-de-competences",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a href=\"#\" class=\"css-11yfvnr\">Accessibilit\u00E9 : non conforme</a>",
+							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
+						},
+						{
 							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
 							"method": "GET",
 							"param": "",
@@ -734,14 +742,6 @@
 						},
 						{
 							"uri": "https://pjm.social.gouv.fr/professionnel",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a href=\"#\" class=\"css-11yfvnr\">Accessibilit\u00E9 : non conforme</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/professionnel/je-suis-un-mandataire-individuel/demande-de-nouvel-agrement",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -808,6 +808,14 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-formation-au-certificat-national-de-competences",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://pjm.social.gouv.fr/devenir-professionnel/la-procedure-d-autorisation-des-services-mandataires",
 							"method": "GET",
 							"param": "cache-control",
@@ -841,14 +849,6 @@
 						},
 						{
 							"uri": "https://pjm.social.gouv.fr/professionnel",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/professionnel/je-suis-un-mandataire-individuel/demande-de-nouvel-agrement",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -913,7 +913,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -956,7 +956,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -1042,7 +1042,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10049",
@@ -1064,6 +1064,22 @@
 						},
 						{
 							"uri": "https://pjm.social.gouv.fr/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/main-77a3ef3c4209de166c9f.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"uri": "https://pjm.social.gouv.fr/_next/static/chunks/pages/_app-6d349ca06714337fd653.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1095,23 +1111,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://pjm.social.gouv.fr/favicon.ico",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
 							"uri": "https://pjm.social.gouv.fr/mentions-legales",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/professionnel",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1141,17 +1141,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"uri": "https://pjm.social.gouv.fr/tarteaucitron/tarteaucitron.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						}
 					],
-					"count": "12",
+					"count": "11",
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information.  If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request. </p>",
 					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
