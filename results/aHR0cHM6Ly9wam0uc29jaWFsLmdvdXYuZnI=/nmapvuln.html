@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln pjm.social.gouv.fr</pre>
-<p class="lead">Sun May 26 00:52:43 2024 – Sun May 26 00:53:07 2024<br>1 hosts scanned.
+<p class="lead">Sun Jun  2 00:52:50 2024 – Sun Jun  2 00:55:40 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,7 +76,7 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>57.128.91.43</td>
+<td>185.194.82.86</td>
 <td>pjm.social.gouv.fr</td>
 <td>2</td>
 <td>0</td>
@@ -91,8 +91,8 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#57-128-91-43"><h3 class="panel-title">57.128.91.43 - pjm.social.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="57-128-91-43">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#185-194-82-86"><h3 class="panel-title">185.194.82.86 - pjm.social.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="185-194-82-86">
 <h4>Hostnames</h4>
 <ul><li>pjm.social.gouv.fr (user)</li></ul>
 <h4>Ports</h4>
@@ -112,21 +112,71 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">nginx</td>
+<td title="Product"></td>
 <td title="Version"></td>
-<td title="Extra Info">reverse proxy</td>
+<td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx">cpe:/a:igor_sysoev:nginx</a></td></tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  FourOhFourRequest: 
+    HTTP/1.0 302 Moved Temporarily
+    Location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
+    Connection: close
+    Content-Length: 0
+  GetRequest, HTTPOptions, RTSPRequest: 
+    HTTP/1.0 302 Moved Temporarily
+    Location: https:///
+    Connection: close
+    Content-Length: 0
+  SIPOptions: 
+    HTTP/1.0 302 Moved Temporarily
+    Location: https://sip:nm
+    Connection: close
+    Content-Length: 0</pre>
+</td></tr>
+<tr class="active">
+<td>113</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>ident</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http</td>
-<td title="Product">nginx</td>
+<td title="Service">https</td>
+<td title="Product"></td>
 <td title="Version"></td>
-<td title="Extra Info">reverse proxy</td>
+<td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx">cpe:/a:igor_sysoev:nginx</a></td></tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  FourOhFourRequest: 
+    HTTP/1.0 404 Not Found
+    Connection: close
+    Content-Length: 9
+    ERROR
+  HTTPOptions: 
+    HTTP/1.1 200 OK
+    Date: Sun, 02 Jun 2024 00:53:15 GMT
+    Allow: GET,POST,OPTIONS,HEAD
+    Content-Length: 0
+    Keep-Alive: timeout=5, max=100
+    Connection: close
+    Content-Type: text/html
+    Set-Cookie: BIGipServerpool-mandoline-core-production.cegedim.cloud-TCP80=!59xuUVo6a3L7zjBWDPlD0yXzT0UGhgxjdYgPg7ALRlxU8h38zNqGoSUhtNXg8hFkegka9Gxr6dNpStiTMBvgnkqij9pL; path=/; Httponly; Secure
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+  RTSPRequest, SIPOptions: 
+    HTTP/1.0 400 Bad Request
+    Connection: close
+    Content-Length: 9
+    ERROR</pre>
+</td></tr>
 </tbody>
 </table></div>
 </div>
@@ -145,24 +195,24 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>57.128.91.43 - pjm.social.gouv.fr</td>
+<td>185.194.82.86 - pjm.social.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td>nginx</td>
 <td></td>
-<td>cpe:/a:igor_sysoev:nginx</td>
-<td>reverse proxy</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td>57.128.91.43 - pjm.social.gouv.fr</td>
+<td>185.194.82.86 - pjm.social.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>http</td>
-<td>nginx</td>
+<td>https</td>
 <td></td>
-<td>cpe:/a:igor_sysoev:nginx</td>
-<td>reverse proxy</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table></div>
