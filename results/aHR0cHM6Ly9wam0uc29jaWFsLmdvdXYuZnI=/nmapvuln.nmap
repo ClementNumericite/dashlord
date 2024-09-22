@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Sep 15 01:04:12 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln pjm.social.gouv.fr
+# Nmap 7.92 scan initiated Sun Sep 22 01:06:07 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln pjm.social.gouv.fr
 Nmap scan report for pjm.social.gouv.fr (185.194.82.86)
-Host is up (0.084s latency).
+Host is up (0.14s latency).
 Not shown: 997 filtered tcp ports (no-response)
 PORT    STATE  SERVICE   VERSION
 80/tcp  open   http
@@ -28,34 +28,24 @@ PORT    STATE  SERVICE   VERSION
 |     Connection: close
 |     Content-Length: 9
 |     ERROR
-|   GetRequest: 
-|     HTTP/1.1 200 OK
-|     Date: Sun, 15 Sep 2024 01:04:31 GMT
-|     Last-Modified: Wed, 24 Apr 2024 15:09:08 GMT
-|     Accept-Ranges: bytes
-|     Content-Length: 9548
-|     Vary: Accept-Encoding
-|     Keep-Alive: timeout=5, max=100
-|     Connection: close
-|     Content-Type: text/html
-|     Set-Cookie: BIGipServerpool-mandoline-core-production.cegedim.cloud-TCP80=!GTTEsg8pU+WSVHhWDPlD0yXzT0UGhqJ8H1MqAgkbl3hrCPGI+gkd588H/SRwh/bxqD1wkXc3PE4bWBzqNdXqqfMIOMTC; path=/; Httponly; Secure
-|     Strict-Transport-Security: max-age=31536000; includeSubDomains
-|     <!DOCTYPE html>
-|     <!-- saved from url=(0027)https://pjm.social.gouv.fr/ -->
-|     <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><meta name="viewport" content="width=device-width"><title>Portail de la Protection Juridique des Majeurs</title><link rel="icon" href="./favicon.ico"><meta name="google-si
 |   HTTPOptions: 
 |     HTTP/1.1 200 OK
-|     Date: Sun, 15 Sep 2024 01:04:32 GMT
+|     Date: Sun, 22 Sep 2024 01:06:35 GMT
 |     Allow: HEAD,GET,POST,OPTIONS
 |     Content-Length: 0
 |     Keep-Alive: timeout=5, max=100
 |     Connection: close
 |     Content-Type: text/html
-|     Set-Cookie: BIGipServerpool-mandoline-core-production.cegedim.cloud-TCP80=!MsmF4WHgnvCRPX9WDPlD0yXzT0UGhuipTGhINK6ffeN9jajIs4THgz3fSD5TZOPVOSISPx/61MflRxc2vH9SewjMvK5l; path=/; Httponly; Secure
-|_    Strict-Transport-Security: max-age=31536000; includeSubDomains
+|     Set-Cookie: BIGipServerpool-mandoline-core-production.cegedim.cloud-TCP80=!5P4eCg0uggv8JMNWDPlD0yXzT0UGhp32ycl7GZSemY7QeJDrnwCin/fB/fgNTFnGkoxk1e3YxSK0lO/V9F975QXXRcJU; path=/; Httponly; Secure
+|     Strict-Transport-Security: max-age=31536000; includeSubDomains
+|   RTSPRequest, SIPOptions: 
+|     HTTP/1.0 400 Bad Request
+|     Connection: close
+|     Content-Length: 9
+|_    ERROR
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=9/15%Time=66E63299%P=x86_64-alpine-linux-musl%r
+SF-Port80-TCP:V=7.92%I=7%D=9/22%Time=66EF6D8F%P=x86_64-alpine-linux-musl%r
 SF:(GetRequest,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\x
 SF:20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%r
 SF:(HTTPOptions,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\
@@ -68,33 +58,20 @@ SF:\x20close\r\nContent-Length:\x200\r\n\r\n")%r(SIPOptions,62,"HTTP/1\.0\
 SF:x20302\x20Moved\x20Temporarily\r\nLocation:\x20https://sip:nm\r\nConnec
 SF:tion:\x20close\r\nContent-Length:\x200\r\n\r\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=9/15%Time=66E6329F%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,11BA,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sun,\x2015\
-SF:x20Sep\x202024\x2001:04:31\x20GMT\r\nLast-Modified:\x20Wed,\x2024\x20Ap
-SF:r\x202024\x2015:09:08\x20GMT\r\nAccept-Ranges:\x20bytes\r\nContent-Leng
-SF:th:\x209548\r\nVary:\x20Accept-Encoding\r\nKeep-Alive:\x20timeout=5,\x2
-SF:0max=100\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nSet-C
-SF:ookie:\x20BIGipServerpool-mandoline-core-production\.cegedim\.cloud-TCP
-SF:80=!GTTEsg8pU\+WSVHhWDPlD0yXzT0UGhqJ8H1MqAgkbl3hrCPGI\+gkd588H/SRwh/bxq
-SF:D1wkXc3PE4bWBzqNdXqqfMIOMTC;\x20path=/;\x20Httponly;\x20Secure\r\nStric
-SF:t-Transport-Security:\x20max-age=31536000;\x20includeSubDomains\r\n\r\n
-SF:<!DOCTYPE\x20html>\n<!--\x20saved\x20from\x20url=\(0027\)https://pjm\.s
-SF:ocial\.gouv\.fr/\x20-->\n<html><head><meta\x20http-equiv=\"Content-Type
-SF:\"\x20content=\"text/html;\x20charset=UTF-8\"><link\x20rel=\"preconnect
-SF:\"\x20href=\"https://fonts\.gstatic\.com/\"\x20crossorigin=\"\"><meta\x
-SF:20name=\"viewport\"\x20content=\"width=device-width\"><title>Portail\x2
-SF:0de\x20la\x20Protection\x20Juridique\x20des\x20Majeurs</title><link\x20
-SF:rel=\"icon\"\x20href=\"\./favicon\.ico\"><meta\x20name=\"google-si")%r(
-SF:HTTPOptions,1B8,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sun,\x2015\x20Sep\x
-SF:202024\x2001:04:32\x20GMT\r\nAllow:\x20HEAD,GET,POST,OPTIONS\r\nContent
-SF:-Length:\x200\r\nKeep-Alive:\x20timeout=5,\x20max=100\r\nConnection:\x2
-SF:0close\r\nContent-Type:\x20text/html\r\nSet-Cookie:\x20BIGipServerpool-
-SF:mandoline-core-production\.cegedim\.cloud-TCP80=!MsmF4WHgnvCRPX9WDPlD0y
-SF:XzT0UGhuipTGhINK6ffeN9jajIs4THgz3fSD5TZOPVOSISPx/61MflRxc2vH9SewjMvK5l;
-SF:\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transport-Security:\x20max
-SF:-age=31536000;\x20includeSubDomains\r\n\r\n")%r(FourOhFourRequest,49,"H
-SF:TTP/1\.0\x20404\x20Not\x20Found\r\nConnection:\x20close\r\nContent-Leng
-SF:th:\x209\r\n\r\n404\x20ERROR");
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=9/22%Time=66EF6D9B%P=x86_64-alpine-linux
+SF:-musl%r(HTTPOptions,1B8,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sun,\x2022\
+SF:x20Sep\x202024\x2001:06:35\x20GMT\r\nAllow:\x20HEAD,GET,POST,OPTIONS\r\
+SF:nContent-Length:\x200\r\nKeep-Alive:\x20timeout=5,\x20max=100\r\nConnec
+SF:tion:\x20close\r\nContent-Type:\x20text/html\r\nSet-Cookie:\x20BIGipSer
+SF:verpool-mandoline-core-production\.cegedim\.cloud-TCP80=!5P4eCg0uggv8JM
+SF:NWDPlD0yXzT0UGhp32ycl7GZSemY7QeJDrnwCin/fB/fgNTFnGkoxk1e3YxSK0lO/V9F975
+SF:QXXRcJU;\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transport-Security
+SF::\x20max-age=31536000;\x20includeSubDomains\r\n\r\n")%r(FourOhFourReque
+SF:st,49,"HTTP/1\.0\x20404\x20Not\x20Found\r\nConnection:\x20close\r\nCont
+SF:ent-Length:\x209\r\n\r\n404\x20ERROR")%r(RTSPRequest,4B,"HTTP/1\.0\x204
+SF:00\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-Length:\x209\r\
+SF:n\r\n400\x20ERROR")%r(SIPOptions,4B,"HTTP/1\.0\x20400\x20Bad\x20Request
+SF:\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n400\x20ERROR");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Sep 15 01:06:41 2024 -- 1 IP address (1 host up) scanned in 149.36 seconds
+# Nmap done at Sun Sep 22 01:09:03 2024 -- 1 IP address (1 host up) scanned in 175.50 seconds
