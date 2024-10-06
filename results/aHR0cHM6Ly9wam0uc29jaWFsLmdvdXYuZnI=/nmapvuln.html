@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln pjm.social.gouv.fr</pre>
-<p class="lead">Sun Sep 29 01:05:32 2024 – Sun Sep 29 01:08:15 2024<br>1 hosts scanned.
+<p class="lead">Sun Oct  6 01:05:07 2024 – Sun Oct  6 01:05:57 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -119,19 +119,9 @@
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest: 
-    HTTP/1.0 302 Moved Temporarily
-    Location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
-    Connection: close
-    Content-Length: 0
-  GetRequest, HTTPOptions, RTSPRequest: 
+  GetRequest: 
     HTTP/1.0 302 Moved Temporarily
     Location: https:///
-    Connection: close
-    Content-Length: 0
-  SIPOptions: 
-    HTTP/1.0 302 Moved Temporarily
-    Location: https://sip:nm
     Connection: close
     Content-Length: 0</pre>
 </td></tr>
@@ -163,7 +153,7 @@
     ERROR
   GetRequest: 
     HTTP/1.1 200 OK
-    Date: Sun, 29 Sep 2024 01:05:51 GMT
+    Date: Sun, 06 Oct 2024 01:05:27 GMT
     Last-Modified: Wed, 24 Apr 2024 15:09:08 GMT
     Accept-Ranges: bytes
     Content-Length: 9548
@@ -171,26 +161,21 @@
     Keep-Alive: timeout=5, max=100
     Connection: close
     Content-Type: text/html
-    Set-Cookie: BIGipServerpool-mandoline-core-production.cegedim.cloud-TCP80=!Ky0ipONoikY8EENWDPlD0yXzT0UGhmBhM9iqg5bgi7O6X+Hlw60fRGsGsRIThgpilPc2qNYp1nJO5JzGPTmeJGPUIfhr; path=/; Httponly; Secure
+    Set-Cookie: BIGipServerpool-mandoline-core-production.cegedim.cloud-TCP80=!v6Tj4hR7RDpzmMNWDPlD0yXzT0UGhrpt9QAumZkGF6A06EUH1OqYlDGysT9t3B+6lm7iyM6GsHfJTMBeiEj77C7kGcPV; path=/; Httponly; Secure
     Strict-Transport-Security: max-age=31536000; includeSubDomains
     &lt;!DOCTYPE html&gt;
     &lt;!-- saved from url=(0027)https://pjm.social.gouv.fr/ --&gt;
     &lt;html&gt;&lt;head&gt;&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;&lt;link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""&gt;&lt;meta name="viewport" content="width=device-width"&gt;&lt;title&gt;Portail de la Protection Juridique des Majeurs&lt;/title&gt;&lt;link rel="icon" href="./favicon.ico"&gt;&lt;meta name="google-si
   HTTPOptions: 
     HTTP/1.1 200 OK
-    Date: Sun, 29 Sep 2024 01:05:52 GMT
-    Allow: POST,OPTIONS,HEAD,GET
+    Date: Sun, 06 Oct 2024 01:05:27 GMT
+    Allow: HEAD,GET,POST,OPTIONS
     Content-Length: 0
     Keep-Alive: timeout=5, max=100
     Connection: close
     Content-Type: text/html
-    Set-Cookie: BIGipServerpool-mandoline-core-production.cegedim.cloud-TCP80=!g/YzgjEZsSA7n0JWDPlD0yXzT0UGhqIgh/55i8F9YPVsxKLhDv4nhFetdc53hG67ZjsDYM8DsO704TxgKjkEKZ/Ga2lR; path=/; Httponly; Secure
-    Strict-Transport-Security: max-age=31536000; includeSubDomains
-  RTSPRequest, SIPOptions: 
-    HTTP/1.0 400 Bad Request
-    Connection: close
-    Content-Length: 9
-    ERROR</pre>
+    Set-Cookie: BIGipServerpool-mandoline-core-production.cegedim.cloud-TCP80=!X9KE/mauZf+2yAJWDPlD0yXzT0UGhtKZcegZU9YpKmHbeyH7qyxgfZub/w/0AWAh/qMlZFzuHI69P6CKcFRwTn90LEzf; path=/; Httponly; Secure
+    Strict-Transport-Security: max-age=31536000; includeSubDomains</pre>
 </td></tr>
 </tbody>
 </table></div>
