@@ -1,13 +1,23 @@
-# Nmap 7.92 scan initiated Sun Nov 10 01:04:26 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln pjm.social.gouv.fr
+# Nmap 7.92 scan initiated Sun Nov 17 01:07:42 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln pjm.social.gouv.fr
 Nmap scan report for pjm.social.gouv.fr (185.194.82.86)
-Host is up (0.14s latency).
+Host is up (0.096s latency).
 Not shown: 997 filtered tcp ports (no-response)
 PORT    STATE  SERVICE   VERSION
 80/tcp  open   http
 | fingerprint-strings: 
-|   GetRequest, HTTPOptions: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 302 Moved Temporarily
+|     Location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
+|     Connection: close
+|     Content-Length: 0
+|   GetRequest, HTTPOptions, RTSPRequest: 
 |     HTTP/1.0 302 Moved Temporarily
 |     Location: https:///
+|     Connection: close
+|     Content-Length: 0
+|   SIPOptions: 
+|     HTTP/1.0 302 Moved Temporarily
+|     Location: https://sip:nm
 |     Connection: close
 |_    Content-Length: 0
 113/tcp closed ident
@@ -20,13 +30,13 @@ PORT    STATE  SERVICE   VERSION
 |     ERROR
 |   HTTPOptions: 
 |     HTTP/1.1 200 OK
-|     Date: Sun, 10 Nov 2024 01:04:55 GMT
-|     Allow: GET,POST,OPTIONS,HEAD
+|     Date: Sun, 17 Nov 2024 01:08:07 GMT
+|     Allow: OPTIONS,HEAD,GET,POST
 |     Content-Length: 0
 |     Keep-Alive: timeout=5, max=100
 |     Connection: close
 |     Content-Type: text/html
-|     Set-Cookie: BIGipServerpool-mandoline-core-production.cegedim.cloud-TCP80=!ecpj+mCFBTXRVAZWDPlD0yXzT0UGhk7wK7AUrjsd0lr77Hz9YzqOHRhjDa5V6jgSUcuY+JKr6g/eeU3bfhavHlbxxMA9; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerpool-mandoline-core-production.cegedim.cloud-TCP80=!0hBvnTdGjdKjeC9WDPlD0yXzT0UGhutI9d6dFFUgFLGDqHWVoN9UHqaNIooSyTN88QXpzf8IQSH12V+thD13mxVDY7CX; path=/; Httponly; Secure
 |     Strict-Transport-Security: max-age=31536000; includeSubDomains
 |   RTSPRequest, SIPOptions: 
 |     HTTP/1.0 400 Bad Request
@@ -35,27 +45,34 @@ PORT    STATE  SERVICE   VERSION
 |_    ERROR
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=11/10%Time=673006AB%P=x86_64-alpine-linux-musl%
+SF-Port80-TCP:V=7.92%I=7%D=11/17%Time=673941EB%P=x86_64-alpine-linux-musl%
 SF:r(GetRequest,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\
 SF:x20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%
 SF:r(HTTPOptions,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:
-SF:\x20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n");
+SF:\x20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")
+SF:%r(RTSPRequest,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation
+SF::\x20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n"
+SF:)%r(FourOhFourRequest,80,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nL
+SF:ocation:\x20https:///nice%20ports%2C/Tri%6Eity\.txt%2ebak\r\nConnection
+SF::\x20close\r\nContent-Length:\x200\r\n\r\n")%r(SIPOptions,62,"HTTP/1\.0
+SF:\x20302\x20Moved\x20Temporarily\r\nLocation:\x20https://sip:nm\r\nConne
+SF:ction:\x20close\r\nContent-Length:\x200\r\n\r\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=11/10%Time=673006B7%P=x86_64-alpine-linu
-SF:x-musl%r(HTTPOptions,1B8,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sun,\x2010
-SF:\x20Nov\x202024\x2001:04:55\x20GMT\r\nAllow:\x20GET,POST,OPTIONS,HEAD\r
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=11/17%Time=673941F7%P=x86_64-alpine-linu
+SF:x-musl%r(HTTPOptions,1B8,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sun,\x2017
+SF:\x20Nov\x202024\x2001:08:07\x20GMT\r\nAllow:\x20OPTIONS,HEAD,GET,POST\r
 SF:\nContent-Length:\x200\r\nKeep-Alive:\x20timeout=5,\x20max=100\r\nConne
 SF:ction:\x20close\r\nContent-Type:\x20text/html\r\nSet-Cookie:\x20BIGipSe
-SF:rverpool-mandoline-core-production\.cegedim\.cloud-TCP80=!ecpj\+mCFBTXR
-SF:VAZWDPlD0yXzT0UGhk7wK7AUrjsd0lr77Hz9YzqOHRhjDa5V6jgSUcuY\+JKr6g/eeU3bfh
-SF:avHlbxxMA9;\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transport-Secur
-SF:ity:\x20max-age=31536000;\x20includeSubDomains\r\n\r\n")%r(FourOhFourRe
-SF:quest,49,"HTTP/1\.0\x20404\x20Not\x20Found\r\nConnection:\x20close\r\nC
-SF:ontent-Length:\x209\r\n\r\n404\x20ERROR")%r(RTSPRequest,4B,"HTTP/1\.0\x
-SF:20400\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-Length:\x209
-SF:\r\n\r\n400\x20ERROR")%r(SIPOptions,4B,"HTTP/1\.0\x20400\x20Bad\x20Requ
-SF:est\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n400\x20ERROR
-SF:");
+SF:rverpool-mandoline-core-production\.cegedim\.cloud-TCP80=!0hBvnTdGjdKje
+SF:C9WDPlD0yXzT0UGhutI9d6dFFUgFLGDqHWVoN9UHqaNIooSyTN88QXpzf8IQSH12V\+thD1
+SF:3mxVDY7CX;\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transport-Securi
+SF:ty:\x20max-age=31536000;\x20includeSubDomains\r\n\r\n")%r(FourOhFourReq
+SF:uest,49,"HTTP/1\.0\x20404\x20Not\x20Found\r\nConnection:\x20close\r\nCo
+SF:ntent-Length:\x209\r\n\r\n404\x20ERROR")%r(RTSPRequest,4B,"HTTP/1\.0\x2
+SF:0400\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-Length:\x209\
+SF:r\n\r\n400\x20ERROR")%r(SIPOptions,4B,"HTTP/1\.0\x20400\x20Bad\x20Reque
+SF:st\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n400\x20ERROR"
+SF:);
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Nov 10 01:07:23 2024 -- 1 IP address (1 host up) scanned in 176.37 seconds
+# Nmap done at Sun Nov 17 01:10:32 2024 -- 1 IP address (1 host up) scanned in 170.13 seconds
