@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Nov 17 01:07:42 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln pjm.social.gouv.fr
+# Nmap 7.92 scan initiated Sun Nov 24 01:07:48 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln pjm.social.gouv.fr
 Host: 185.194.82.86 ()	Status: Up
 Host: 185.194.82.86 ()	Ports: 80/open/tcp//http///, 113/closed/tcp//ident///, 443/open/tcp//ssl|https///	Ignored State: filtered (997)
-# Nmap done at Sun Nov 17 01:10:32 2024 -- 1 IP address (1 host up) scanned in 170.13 seconds
+# Nmap done at Sun Nov 24 01:10:32 2024 -- 1 IP address (1 host up) scanned in 163.48 seconds
